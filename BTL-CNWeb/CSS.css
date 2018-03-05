@@ -1,12 +1,249 @@
 *
 {
-	padding : 0px;
-	margin : 0px;
+padding : 0px;
+margin : 0px;
 }
 body
 {
+width: 1236px;
+font-family: 18px;
+font-family: tahoma;
+margin: 0px auto;
+}
+#top
+{
 	width: 1236px;
-	font-family: 18px;
-	font-family: tahoma;
+	margin: auto;
+	height:30px;
+	background-color: blue; 
+}
+#top ul
+{
+	padding: 0px;
+	list-style: none;
+}
+#top ul a
+{
+	float: right;
+	text-decoration: none;
+	color: white;
+	display: block;
+	line-height: 30px; 
+	padding: 0px 30px 0px;
+	text-align: center;
+}
+#top ul a:hover
+{
+	background-color: gray;
+}
+
+
+#header
+{
+	background: url('../BTL-CNWeb/1.JPG') no-repeat;
+	width: : 1236px;
+	height: 180px;
+	display: block;
+	
+}
+
+
+#menu
+{
+	width: 1236px;
+	height: 30px;
+	margin: auto;
+	background-color: blue;
+}
+#menu ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;  
+}
+#menu ul a
+{
+	float: left;
+	text-decoration: none;
+	color: white;
+	line-height: 30px;
+	display: block;
+	padding: 0px 30px 0px 30px;
+	text-align: center;
+}
+#menu ul a:hover
+{
+	background-color: gray;
+}
+
+#slider
+{
 	margin: 0px auto;
+	background: url('../BTL-CNWeb/2.JPG') no-repeat;
+	width: : 1236px;
+	height: 175px;
+	margin: auto;
+
+}
+
+
+#content1	
+{
+	margin: auto;
+	padding: 0px;
+	width: 1000px;
+	height: 300px;
+	background-color: red;
+	float: left;
+}
+#content1 ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#content1 ul a
+{
+	float: left;
+	text-decoration: border: ;
+	color: black;
+	line-height: 30px;
+	display: block;
+	text-align: center;
+}
+
+#adsense
+{
+	margin: auto;
+	background-color: violet;
+	height: 900px;
+	width: 236px;
+	float:right;
+}
+#adsense ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#adsense ul a
+{
+	float: left;
+	text-decoration: border;
+	color: black;
+	line-height: 30px;
+	display: block;
+	text-align: center;
+}
+
+#content2
+{
+	margin: auto;
+	width: 1000px;
+	height: 300px;
+	background-color: orange;
+	float: left;
+}
+#content2 ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#content2 ul a
+{
+	float: left;
+	text-decoration: border;
+	color: black;
+	line-height: 30px;
+	display: block;
+	text-align: center;
+}
+
+#content3
+{
+	margin: auto;
+	width: 1000px;
+	height: 300px;
+	background-color: green;
+	float: left;
+}
+#content3 ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#content3 ul a
+{
+	float: left;
+	text-decoration: border;
+	color: black;
+	line-height: 30px;
+	display: block;
+	text-align: center;
+}
+#footer	
+{
+	margin: auto;
+	padding: 0px;
+	width: 1236px;
+	height: 30px;
+	background-color: pink;
+	float: left;
+}
+#youtube
+{
+	margin: auto;
+	height: 300px;
+	width: 236px;
+	float:right;
+	background-color: pink;
+}
+#youtube ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background-color: pink;
+}
+#youtube ul a
+{
+	float: left;
+	text-decoration: border;
+	color: black;
+	line-height: 30px;
+	display: block;
+	text-align: center;
+}
+#diendan
+{
+	margin: auto;
+	height: 300px;
+	width: 236px;
+	float:right;
+	background-color: gray;
+}
+#diendan ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#diendan ul a
+{
+	float: left;
+	text-decoration: border;
+	color: black;
+	line-height: 30px;
+	display: block;
+	text-align: center;
+}
+#youtube
+{
+	text-align: center;
+}
+#diendan
+{
+	text-align: center;
 }

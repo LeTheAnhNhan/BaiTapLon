@@ -3,192 +3,6 @@
 	<meta charset="UTF-8">
 	<title>Chan Nuoi</title>
 	<link rel="stylesheet" type="text/css" href="CSS.css">
-	<style>
-		#top
-		{
-			width: 1236px;
-			margin: auto;
-			height:30px;
-			background-color: blue; 
-		}
-		#top ul
-		{
-			padding: 0px;
-			list-style: none;
-		}
-		#top ul a
-		{
-			float: right;
-			text-decoration: none;
-			color: white;
-			display: block;
-			line-height: 30px; 
-			padding: 0px 30px 0px;
-			text-align: center;
-		}
-		#top ul a:hover
-		{
-			background-color: gray;
-		}
-
-		
-		#header
-		{
-			background: url('../BTL-CNWeb/1.JPG') no-repeat;
-			width: : 1236px;
-			height: 180px;
-			display: block;
-			
-		}
-
-	
-		#menu
-		{
-			width: 1236px;
-			height: 30px;
-			margin: auto;
-			background-color: blue;
-		}
-		#menu ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;  
-		}
-		#menu ul a
-		{
-			float: left;
-			text-decoration: none;
-			color: white;
-			line-height: 30px;
-			display: block;
-			padding: 0px 30px 0px 30px;
-			text-align: center;
-		}
-		#menu ul a:hover
-		{
-			background-color: gray;
-		}
-
-		#slider
-		{
-			margin: 0px auto;
-			background: url('../BTL-CNWeb/2.JPG') no-repeat;
-			width: : 1236px;
-			height: 175px;
-			margin: auto;
-
-
-		}
-
-		
-		#content1	
-		{
-			margin: auto;
-			padding: 0px;
-			width: 1000px;
-			height: 300px;
-			background-color: red;
-			float: left;
-		}
-		#content1 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content1 ul a
-		{
-			float: left;
-			text-decoration: border: ;
-			color: black;
-			line-height: 30px;
-			display: block;
-			text-align: center;
-		}
-
-		#adsense
-		{
-			margin: auto;
-			background-color: violet;
-			height: 900px;
-			width: 236px;
-			float:right;
-		}
-		#adsense ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#adsense ul a
-		{
-			float: left;
-			text-decoration: border;
-			color: black;
-			line-height: 30px;
-			display: block;
-			text-align: center;
-		}
-
-		#content2
-		{
-			margin: auto;
-			width: 1000px;
-			height: 300px;
-			background-color: orange;
-			float: left;
-		}
-		#content2 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content2 ul a
-		{
-			float: left;
-			text-decoration: border;
-			color: black;
-			line-height: 30px;
-			display: block;
-			text-align: center;
-		}
-
-		#content3
-		{
-			margin: auto;
-			width: 1000px;
-			height: 300px;
-			background-color: green;
-			float: left;
-		}
-		#content3 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content3 ul a
-		{
-			float: left;
-			text-decoration: border;
-			color: black;
-			line-height: 30px;
-			display: block;
-			text-align: center;
-		}
-		#footer	
-		{
-			margin: auto;
-			padding: 0px;
-			width: 1236px;
-			height: 30px;
-			background-color: red;
-			float: left;
-		}
-
-	</style>	
 </head>
 <body>
 	<div id="top">
@@ -208,6 +22,10 @@
 			<li><a href="#">Tài Liệu</a></li>
 			<li><a href="#">Trồng Trọt</a></li>
 			<li> <a href="#">Chăn Nuôi</a></li>
+			<div class="container">
+				<span class="icon"><i class="search"></i></span>
+				<input type="search" id="search" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
+			</div>
 		</ul>
 	</div>
 
@@ -221,9 +39,10 @@
 		</ul>
 	</div>
 
-	<div id="adsense">
+	<div id="youtube">
+		<a href="https://www.youtube.com/user/cungnongdanlamgiau" target="_blank"><img src="youtube.jpg" alt="youtube"></a>
 		<ul>
-			<li><a href="#">Social Network</a></li>
+			<li><a href="https://www.youtube.com/user/cungnongdanlamgiau" target="_blank">Kênh Youtube Chia Sẻ Kiến Thức</a></li>
 		</ul>
 	</div>
 
@@ -232,7 +51,12 @@
 			<li><a href="#">Khoa Học Công Nghệ</a></li>
 		</ul>
 	</div>
-
+	<div id="diendan">
+		<a href="http://nhanongviet.vn/dien-dan-nong-nghiep/" target="_blank"><img src="4.jpg" alt="leaf"></a>
+		<ul>
+			<li><a href="http://nhanongviet.vn/dien-dan-nong-nghiep/" target="_blank">Kênh Diễn Đàn Của Người Nông Dân</a></li>
+		</ul>
+	</div>
 	<div id="content3">
 		<ul>
 			<li><a href="#">Nông Dân Làm Giàu</a></li>
@@ -240,7 +64,6 @@
 	</div>
 
 	<div id="footer">Footer</div>
-
 	
 </body>
 </html>
