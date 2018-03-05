@@ -86,119 +86,140 @@ margin: 0px auto;
 
 }
 
-
 #content1	
 {
 	margin: auto;
-	padding: 0px;
-	width: 1000px;
+	padding-left: 10px;
+	width: 986px;
 	height: 300px;
-	background-color: red;
 	float: left;
+	border-style: groove;
+	border-width:2px;
+	background-color: lightsteelblue;
 }
 #content1 ul
 {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
+	margin: auto;
+	padding-left: 10px;
 }
 #content1 ul a
 {
-	float: left;
-	text-decoration: border: ;
+	margin: 10px;
+	list-style-position: inside; 
 	color: black;
 	line-height: 30px;
 	display: block;
-	text-align: center;
+	text-align: left;
 }
 
-#adsense
-{
-	margin: auto;
-	background-color: violet;
-	height: 900px;
-	width: 236px;
-	float:right;
-}
-#adsense ul
-{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-#adsense ul a
-{
-	float: left;
-	text-decoration: border;
-	color: black;
-	line-height: 30px;
-	display: block;
-	text-align: center;
-}
+
 
 #content2
 {
 	margin: auto;
-	width: 1000px;
+	padding-left: 10px;
+	width: 986px;
 	height: 300px;
-	background-color: orange;
 	float: left;
+	border-style: groove;
+	border-width:2px;
+	background-color: lightcoral;
 }
 #content2 ul
 {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-#content2 ul a
-{
-	float: left;
-	text-decoration: border;
+	margin: 10px;
+	list-style-position: inside; 
 	color: black;
 	line-height: 30px;
 	display: block;
-	text-align: center;
+	text-align: left;
+}
+#content2 ul a
+{
+	margin: 10px;
+	list-style-position: inside; 
+	color: black;
+	line-height: 30px;
+	display: block;
+	text-align: left;
 }
 
 #content3
 {
 	margin: auto;
-	width: 1000px;
+	padding-left: 10px;
+	width: 986px;
 	height: 300px;
-	background-color: green;
 	float: left;
+	border-style: groove;
+	border-width:2px;
+	background-color: lightsalmon;
 }
 #content3 ul
+{
+	margin: auto;
+	list-style-position: inside; 
+	color: blue;
+	line-height: 30px;
+	display: block;
+	text-align: left;
+}
+#content3 ul a
+{
+	margin: auto;
+	list-style-position: inside; 
+	color: blue;
+	line-height: 30px;
+	text-align: left;
+}
+#weather
+{
+	margin: auto;
+	height: 300px;
+	width: 232px;
+	float:right;
+	background-color: lightgreen;
+	border-style: groove;
+	border-width: 2px;
+	text-align: center;
+}
+#weather ul
 {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
 }
-#content3 ul a
-{
-	float: left;
-	text-decoration: border;
-	color: black;
-	line-height: 30px;
-	display: block;
-	text-align: center;
-}
 #footer	
 {
 	margin: auto;
 	padding: 0px;
-	width: 1236px;
-	height: 30px;
+	width: 1232px;
+	height: 60px;
 	background-color: pink;
 	float: left;
+	border-style: groove;
+	border-width: 2px;
 }
+#footer ul
+{
+	margin: auto;
+	list-style-position: inside; 
+	color: blue;
+	line-height: 30px;
+	display: block;
+	text-align: right;
+}
+
 #youtube
 {
 	margin: auto;
 	height: 300px;
-	width: 236px;
+	width: 232px;
 	float:right;
 	background-color: pink;
+	border-style: groove;
+	border-width: 2px;
+	text-align: center;
 }
 #youtube ul
 {
@@ -220,9 +241,12 @@ margin: 0px auto;
 {
 	margin: auto;
 	height: 300px;
-	width: 236px;
+	width: 232px;
 	float:right;
 	background-color: gray;
+	border-style: groove;
+	border-width: 2px;
+	text-align: center;
 }
 #diendan ul
 {
@@ -230,6 +254,7 @@ margin: 0px auto;
 	padding: 0px;
 	list-style: none;
 }
+
 #diendan ul a
 {
 	float: left;
@@ -239,11 +264,12 @@ margin: 0px auto;
 	display: block;
 	text-align: center;
 }
-#youtube
+
+#width1
 {
-	text-align: center;
+	width: 246px;
 }
-#diendan
+#width2
 {
-	text-align: center;
+	width: 328px;
 }
