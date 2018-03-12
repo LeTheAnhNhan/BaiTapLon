@@ -1,0 +1,263 @@
+*
+{
+padding : 0px;
+
+}
+body
+{
+width: 1236px;
+font-family: tahoma;
+margin: 0px auto;
+}
+		#top
+		{
+			width: 1236px;
+			margin: auto;
+			height:30px;
+			background-color: blue; 
+		}
+		#top ul
+		{
+			padding: 0px;
+			list-style: none;
+		}
+		#top ul a
+		{
+			float: right;
+			text-decoration: none;
+			color: white;
+			display: block;
+			line-height: 30px; 
+			padding: 0px 30px 0px;
+			text-align: center;				
+		}
+		#top ul a:hover
+		{
+			background-color: gray;
+		}
+		
+		#header
+		{
+			background: url('../BTL-CNWeb/1.JPG') no-repeat;
+			width: : 1236px;
+			height: 180px;
+			display: block;
+		}
+	
+		#menu
+		{
+			width: 1236px;
+			height: 30px;
+			margin: auto;
+			background-color: blue;
+		}
+		#menu ul
+		{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;  
+		}
+		#menu ul a
+		{
+			float: left;
+			text-decoration: none;
+			color: white;
+			line-height: 30px;
+			display: block;
+			padding: 0px 30px 0px 30px;
+			text-align: center;
+		}
+		#menu ul a:hover
+		{
+			background-color: gray;
+		}
+
+		#content1
+		{
+			margin: auto;
+			width: 1231px;
+			height: 100px;
+			font-size: 40px;
+			border: 2px solid black;
+			padding-left: 5px;
+			padding-top: 5px;
+			float: left;
+		}
+		#content1 ul
+		{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		#content1 ul a
+		{
+			
+			text-decoration: border;
+			color: red;
+			line-height: 70px;
+			display: block;
+			text-align: center;
+		}
+
+
+		#content2
+		{
+			margin: auto;
+			width: 1231px;
+			height: 300px;
+			font-size: 25px;
+			border: 2px solid black;
+			padding-left: 5px;
+			padding-top: 5px;
+			float: left;
+		}
+		#content2 ul
+		{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		#content2 ul a
+		{
+			float: left;
+			text-decoration: : border;
+			color: black;
+			line-height: 30px;
+			display: block;
+		}
+
+		
+		#content3
+		{
+			margin: auto;
+			width: 1231px;
+			height: 300px;
+			font-size: 25px;
+			border: 2px solid black;
+			padding-left: 5px;
+			padding-top: 5px;
+			float: left;
+		}
+		#content3 ul
+		{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		#content3 ul a
+		{
+			float: left;
+			text-decoration: border;
+			color: black;
+			line-height: 30px;
+			display: block;
+		}
+
+		#content4
+		{
+			margin: auto;
+			width: 1231px;
+			height: 300px;
+			font-size: 25px;
+			border: 2px solid black;
+			padding-left: 5px;
+			padding-top: 5px;
+			float: left;
+		}
+		#content4 ul
+		{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		#content4 ul a
+		{
+			float: left;
+			text-decoration: border;
+			color: black;
+			line-height: 30px;
+			display: block;
+
+		}
+
+
+		#content5
+		{
+			margin: auto;
+			width: 1231px;
+			height: 300px;
+			font-size: 25px;
+			border: 2px solid black;
+			padding-left: 5px;
+			padding-top: 5px;
+			float: left;
+		}
+		#content5 ul
+		{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		#content5 ul a
+		{
+			float: left;
+			text-decoration: border;
+			color: black;
+			line-height: 30px;
+			display: block;
+
+		}
+
+		#content6
+		{
+			margin: auto;
+			width: 1231px;
+			height: 300px;
+			font-size: 25px;
+			border: 2px solid black;
+			padding-left: 5px;
+			padding-top: 5px;
+			float: left;
+		}
+		#content5 ul
+		{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		#content5 ul a
+		{
+			float: left;
+			text-decoration: border;
+			color: black;
+			line-height: 30px;
+			display: block;
+
+		}
+
+		#content7
+		{
+			margin: auto;
+			width: 1231px;
+			height: 300px;
+			font-size: 25px;
+			border: 2px solid black;
+			padding-left: 5px;
+			padding-top: 5px;
+			float: left;
+		}
+		#content5 ul
+		{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		#content5 ul a
+		{
+			float: left;
+			text-decoration: border;
+			color: black;
+			line-height: 30px;
+			display: block;
+
+		}
