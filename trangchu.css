@@ -10,6 +10,10 @@ font-family: 18px;
 font-family: tahoma;
 margin: 0px auto;
 }
+a
+{
+	text-decoration: none;
+}
 #top
 {
 	width: 1236px;
@@ -44,16 +48,16 @@ margin: 0px auto;
 	width: : 1236px;
 	height: 180px;
 	display: block;
-	
 }
 
 
 #menu
 {
-	width: 1236px;
-	height: 30px;
-	margin: auto;
 	background-color: blue;
+}
+.mn
+{
+	line-height:50px;
 }
 #menu ul
 {
@@ -66,7 +70,6 @@ margin: 0px auto;
 	float: left;
 	text-decoration: none;
 	color: white;
-	line-height: 30px;
 	display: block;
 	padding: 0px 30px 0px 30px;
 	text-align: center;
@@ -76,6 +79,7 @@ margin: 0px auto;
 	background-color: gray;
 }
 
+
 #slider
 {
 	margin: 0px auto;
@@ -83,6 +87,7 @@ margin: 0px auto;
 	width: : 1236px;
 	height: 175px;
 	margin: auto;
+	margin-bottom: 10px;
 
 }
 
@@ -95,7 +100,7 @@ margin: 0px auto;
 	float: left;
 	border-style: groove;
 	border-width:2px;
-	background-color: lightsteelblue;
+	margin-bottom: 10px;
 }
 #content1 ul
 {
@@ -123,7 +128,7 @@ margin: 0px auto;
 	float: left;
 	border-style: groove;
 	border-width:2px;
-	background-color: lightcoral;
+	margin-bottom: 10px;
 }
 #content2 ul
 {
@@ -153,7 +158,7 @@ margin: 0px auto;
 	float: left;
 	border-style: groove;
 	border-width:2px;
-	background-color: lightsalmon;
+	margin-bottom: 10px;
 }
 #content3 ul
 {
@@ -176,12 +181,13 @@ margin: 0px auto;
 {
 	margin: auto;
 	height: 300px;
-	width: 232px;
+	width: 225px;
 	float:right;
-	background-color: lightgreen;
 	border-style: groove;
 	border-width: 2px;
 	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 5px;
 }
 #weather ul
 {
@@ -195,7 +201,6 @@ margin: 0px auto;
 	padding: 0px;
 	width: 1232px;
 	height: 60px;
-	background-color: pink;
 	float: left;
 	border-style: groove;
 	border-width: 2px;
@@ -214,12 +219,13 @@ margin: 0px auto;
 {
 	margin: auto;
 	height: 300px;
-	width: 232px;
+	width: 225px;
 	float:right;
-	background-color: pink;
-	border-style: groove;
 	border-width: 2px;
 	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	border-style: groove;
 }
 #youtube ul
 {
@@ -241,12 +247,13 @@ margin: 0px auto;
 {
 	margin: auto;
 	height: 300px;
-	width: 232px;
+	width: 225px;
 	float:right;
-	background-color: gray;
 	border-style: groove;
 	border-width: 2px;
 	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 5px;
 }
 #diendan ul
 {
@@ -258,7 +265,6 @@ margin: 0px auto;
 #diendan ul a
 {
 	float: left;
-	text-decoration: border;
 	color: black;
 	line-height: 30px;
 	display: block;
@@ -272,4 +278,14 @@ margin: 0px auto;
 #width2
 {
 	width: 328px;
+}
+#search
+{
+	height: 30px;
+	width: 70%;
+	background-color: white;
+	border: none;
+	display: inline-block;
+	margin: 0px auto;
+	outline-style: none;
 }
