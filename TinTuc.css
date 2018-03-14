@@ -1,0 +1,27 @@
+.top
+{
+	width: 80%;
+	background-color: blue;
+	position: relative;
+	height: 10vh
+}
+.top ul
+{
+	width: 60%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.top ul a
+{
+	width: 20%;
+	display: inline-block;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	
+}
+.top ul a:hover
+{
+	background-color: gray;
+}
