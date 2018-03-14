@@ -5,10 +5,9 @@ margin : 0px;
 }
 body
 {
-width:100%;
-font-family: 18px;
-font-family: tahoma;
-margin: 0px auto;
+	width:100%;
+	font-family: tahoma;
+	margin: 0px auto;
 }
 a
 {
@@ -119,7 +118,6 @@ li a:hover:not(.active)
 #content1	
 {
 	margin: auto;
-	padding-left: 10px;
 	width: 80%;
 	height: 300px;
 	display: inline-block;
@@ -127,6 +125,7 @@ li a:hover:not(.active)
 	border-width:2px;
 	margin-bottom: 10px;
 	box-sizing: border-box;
+	padding-left: 5px;
 }
 #content1 ul
 {
@@ -148,23 +147,19 @@ li a:hover:not(.active)
 #content2
 {
 	margin: auto;
-	padding-left: 10px;
 	width: 80%;
 	height: 300px;
-	float: left;
+	display: inline-block;
 	border-style: groove;
 	border-width:2px;
 	margin-bottom: 10px;
 	box-sizing: border-box;
+	padding-left: 5px;
 }
 #content2 ul
 {
-	margin: 10px;
-	list-style-position: inside; 
-	color: black;
-	line-height: 30px;
-	display: block;
-	text-align: left;
+	margin: auto;
+	padding-left: 10px;
 }
 #content2 ul a
 {
@@ -255,7 +250,7 @@ li a:hover:not(.active)
 	border-width: 2px;
 	text-align: center;
 	margin-bottom: 10px;
-	margin-left: 5px;
+	vertical-align: top;
 	box-sizing: border-box;
 }
 #youtube ul
@@ -277,12 +272,12 @@ li a:hover:not(.active)
 	margin: auto;
 	height: 300px;
 	width: 20%;
-	float:right;
+	display: inline-block;
 	border-style: groove;
 	border-width: 2px;
 	text-align: center;
 	margin-bottom: 10px;
-	margin-left: 5px;
+	vertical-align: top;
 	box-sizing: border-box;
 }
 #diendan ul
@@ -294,6 +289,7 @@ li a:hover:not(.active)
 
 #diendan ul a
 {
+	text-decoration: none;
 	color: black;
 	line-height: 30px;
 	display: block;
@@ -302,13 +298,14 @@ li a:hover:not(.active)
 
 #width1
 {
-	width: 246px;
+	width: 24.5%;
 	display: inline-block;
 
 }
 #width2
 {
-	width: 328px;
+	width: 33%;
+	display: inline-block;
 }
 #search
 {
