@@ -299,14 +299,12 @@ li a:hover:not(.active)
 {
 	width: 22.5%;
 	display: inline-block;
-	margin: 0px auto;
 	padding: 10px 10px;
 }
 #width2
 {
 	width: 22.5%;
 	display: inline-block;
-	margin: 0px auto;
 	padding: 20px 50px;
 }
 #search
