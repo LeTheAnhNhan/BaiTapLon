@@ -5,14 +5,12 @@
 }
 body
 {
-<<<<<<< HEAD
-width: 1236px;
-font-family: tahoma;
-margin: 0px auto;
-=======
+
+	width: 1236px;
+	font-family: tahoma;
+	margin: 0px auto;
 	width:100%;
 	margin: 0px auto;
->>>>>>> fc34ba9f6be9766d185a0cf680b9652d1f3d8c37
 }
 a
 {
@@ -147,9 +145,6 @@ li a:hover:not(.active)
 	display: block;
 	text-align: left;
 }
-
-
-
 #content2
 {
 	margin: auto;

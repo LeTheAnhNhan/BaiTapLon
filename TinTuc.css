@@ -1,28 +1,27 @@
 *
 {
-padding : 0px;
-margin : 0px;
+	padding : 0;
+	margin : 0;
 }
 body
 {
-width: 100%;
-font-family: tahoma;
-margin: 0px auto;
+	font-family: sans-serif;
+	color: #333;
 }
-a
+.wrap
 {
-	text-decoration: none;
+	width: 100%;
 }
 .top
 {
 	width: 100%;
-	height: 30px;
 	margin: auto;
+	height:30px;
 	background-color: blue; 
 }
 .top ul
 {
-	padding: 10px 0px;
+	padding: 0px;
 	list-style: none;
 }
 .top ul a
@@ -31,7 +30,7 @@ a
 	text-decoration: none;
 	color: white;
 	display: block;
-	line-height: 30px;  
+	line-height: 30px; 
 	padding: 0px 30px 0px;
 	text-align: center;
 }
@@ -39,46 +38,210 @@ a
 {
 	background-color: gray;
 }
-
-
-.header
+.imgheader
 {
-	background: url('../BTL-CNWeb/1.JPG') no-repeat;
-	width: : 100%;
-	height: 180px;
-	display: block;
+	width: 100%;
+	height: 300%;
 }
-
-
 .menu
 {
-	background-color: blue;
+	width: 100%;
+	margin: auto;
+	height:50px;
+	background-color: blue; 
 }
-
 .menu ul
 {
-	margin: 0px;
-	list-style: none; 
-	width: 60%;
-	display: inline-block
-}
-.menu ul li{
-	width: 15%;
-	padding: 10px 0px;
-	display: inline-block;
+	padding: 0px;
+	list-style: none;
 }
 .menu ul a
 {
+	float: left;
 	text-decoration: none;
 	color: white;
+	display: block;
+	line-height: 50px; 
+	padding: 0px 30px 0px;
 	text-align: center;
-
 }
 .menu ul a:hover
 {
 	background-color: gray;
 }
-.container{
-	display: inline-block;
-	width: 40%
+.container
+{
+	width: 40%;
+	float: right;
+	padding-right: 60px;
+	padding-top: 10px;
 }
+.search
+{
+	width: 100%;
+	height: 30px;
+	background: white;
+	border: none;
+	float: left;
+	color: black;
+	padding-left: 30px;
+	font-size: 10pt;
+}
+.content1
+{
+	width: 40%;
+	height: 300px;
+	background: white;
+	border-left: 5px solid white;
+	border-right: 2px solid gray;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+}
+.imgcontent1
+{
+	width: 98%;
+	height: 100%;
+}
+.bottom
+{
+	position: absolute;
+	bottom: 10px;
+	right: 16px;
+	font-size: 30px;
+}
+.content2
+{
+	box-sizing: border-box;
+	width: 30%;
+	height: 300px;
+	background: white;
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 5px;
+	color: white;
+	border-right: 2px solid gray;
+}
+.content21
+{
+	width:90%;
+	height: 30%;
+	border-top: 1px solid gray;
+	background: white;
+	margin-bottom: 10px;
+}
+.imgcontent21
+{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.p
+{
+	text-align: center;
+	float: left;
+	color: black;
+}
+.content3
+{
+	width: 29%;
+	height: 300px;
+	background: white;
+	border-left: 5px solid white;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+}
+.imgcontent3
+{
+	width: 100%;
+	height: 100%;
+}
+.bottom1
+{
+	position: absolute;
+	bottom: 10px;
+	right: 16px;
+	font-size: 30px;
+}
+.content4
+{
+	width: 49%;
+	height: 200px;
+	background: white;
+	border-left: 5px solid white;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	border-right: 2px solid gray;
+	padding-right: 30px;
+}
+.content5
+{
+	width: 49%;
+	height: 200px;
+	background: white;
+	border-left: 5px solid white;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	padding-right: 30px;
+}
+.content6
+{
+	width: 49%;
+	height: 200px;
+	background: white;
+	border-left: 5px solid white;
+	border-right: 2px solid gray;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	padding-right: 30px;
+}
+.content7
+{
+	width: 49%;
+	height: 200px;
+	background: white;
+	border-left: 5px solid white;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	padding-right: 30px;
+}
+.imgcontent4567
+{
+	float: left;
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	position: relative;
+	display: inline-block;
+}
+.text
+{
+	margin-top: 20px;
+	float: right;
+	width: 40%;
+	color: black;
+	text-align: center;
+}
+.footer
+{
+	width: 100%;
+	height: 100px;
+	background: blue;
+	padding-right: 30px;
+}
+.footer1
+{
+	width: 30%;
+	height: 100%;
+	float: right;
+	padding: 30px;
+	color: white;
+	text-align: center;
+}
+
+
