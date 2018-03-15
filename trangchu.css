@@ -5,7 +5,15 @@
 }
 body
 {
+<<<<<<< HEAD
+
+	width: 1236px;
+	font-family: tahoma;
+	margin: 0px auto;
+	width:100%;
+=======
 	width: 100%;
+>>>>>>> 67b3db381868d570987d8b3c69c74b65bf383ded
 	margin: 0px auto;
 }
 
@@ -133,9 +141,6 @@ a
 	display: block;
 	text-align: left;
 }
-
-
-
 #content2
 {
 	margin: auto;
