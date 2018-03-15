@@ -5,13 +5,18 @@
 }
 body
 {
+<<<<<<< HEAD
 
 	width: 1236px;
 	font-family: tahoma;
 	margin: 0px auto;
 	width:100%;
+=======
+	width: 100%;
+>>>>>>> 67b3db381868d570987d8b3c69c74b65bf383ded
 	margin: 0px auto;
 }
+
 a
 {
 	text-decoration: none;
@@ -20,7 +25,7 @@ a
 {
 	width: 100%;
 	margin: auto;
-	height:30px;
+	height:50px;
 	background-color: blue; 
 }
 #top ul
@@ -34,9 +39,10 @@ a
 	text-decoration: none;
 	color: white;
 	display: block;
-	line-height: 30px; 
+	line-height: 50px; 
 	padding: 0px 30px 0px;
 	text-align: center;
+	border-right: 1px solid white;
 }
 #top ul a:hover
 {
@@ -93,25 +99,15 @@ a
 {
 	background-color: gray;
 }
-.active
+.mennubar
 {
 	border-right:  1px solid white; 
-}
-li a.active
-{	
-	background-color: blue;
-	color: white;
-}
-li a:hover:not(.active)
-{
-	background-color: blue;
-	color: white;
 }
 
 #slider
 {
 	margin: 0px auto;
-	background: url('../BTL-CNWeb/2.JPG') no-repeat;
+	background: url('image/2.jpg') no-repeat;
 	width: : 100%;
 	height: 175px;
 	margin: auto;
@@ -125,7 +121,8 @@ li a:hover:not(.active)
 	padding-left: 5px;
 	width: 80%;
 	height: 300px;
-	border-style: groove;
+	border-bottom: groove;
+	border-right: groove;
 	border-width:2px;
 	margin-bottom: 10px;
 	box-sizing: border-box;
@@ -151,7 +148,8 @@ li a:hover:not(.active)
 	padding-left: 10px;
 	width: 80%;
 	height: 300px;
-	border-style: groove;
+	border-bottom: groove;
+	border-right: groove;
 	border-width:2px;
 	margin-bottom: 10px;
 	box-sizing: border-box;
@@ -178,7 +176,8 @@ li a:hover:not(.active)
 	padding-left: 10px;
 	width: 80%;
 	height: 300px;
-	border-style: groove;
+	border-bottom: groove;
+	border-right: groove;
 	border-width:2px;
 	margin-bottom: 10px;
 	box-sizing: border-box;
@@ -206,8 +205,6 @@ li a:hover:not(.active)
 	margin: auto;
 	height: 300px;
 	width: 20%;
-	border-style: groove;
-	border-width: 2px;
 	text-align: center;
 	margin-bottom: 10px;
 	vertical-align: top;
@@ -243,11 +240,9 @@ li a:hover:not(.active)
 
 #youtube
 {
-	margin: auto;
+	margin:auto;
 	height: 300px;
 	width: 20%;
-	border-style: groove;
-	border-width: 2px;
 	text-align: center;
 	margin-bottom: 10px;
 	vertical-align: top;
@@ -272,8 +267,6 @@ li a:hover:not(.active)
 	margin: auto;
 	height: 300px;
 	width: 20%;
-	border-style: groove;
-	border-width: 2px;
 	text-align: center;
 	margin-bottom: 10px;
 	vertical-align: top;
@@ -300,7 +293,7 @@ li a:hover:not(.active)
 {
 	width: 22.5%;
 	display: inline-block;
-	padding: 10px 10px;
+	padding: 15px 12px;
 }
 #width2
 {
