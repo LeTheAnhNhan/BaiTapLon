@@ -1,13 +1,18 @@
 *
 {
-padding : 0px;
-margin : 0px;
+	padding : 0px;
+	margin : 0px;
 }
 body
 {
+<<<<<<< HEAD
 width: 1236px;
 font-family: tahoma;
 margin: 0px auto;
+=======
+	width:100%;
+	margin: 0px auto;
+>>>>>>> fc34ba9f6be9766d185a0cf680b9652d1f3d8c37
 }
 a
 {
@@ -15,7 +20,7 @@ a
 }
 #top
 {
-	width: 1236px;
+	width: 100%;
 	margin: auto;
 	height:30px;
 	background-color: blue; 
@@ -40,13 +45,26 @@ a
 	background-color: gray;
 }
 
-
+.container
+{
+	position: relative;
+	z-index: 10;
+}
+#iconsearch
+{
+	background-color: blue;
+	position: absolute;
+	right: 110px;
+	top: 0;
+	color: white;
+}
 #header
 {
 	background: url('../BTL-CNWeb/1.JPG') no-repeat;
-	width: : 1236px;
+	width: : 100%;
 	height: 180px;
 	display: block;
+	margin: 0px auto;
 }
 
 
@@ -77,13 +95,26 @@ a
 {
 	background-color: gray;
 }
-
+.active
+{
+	border-right:  1px solid white; 
+}
+li a.active
+{	
+	background-color: blue;
+	color: white;
+}
+li a:hover:not(.active)
+{
+	background-color: blue;
+	color: white;
+}
 
 #slider
 {
 	margin: 0px auto;
 	background: url('../BTL-CNWeb/2.JPG') no-repeat;
-	width: : 1236px;
+	width: : 100%;
 	height: 175px;
 	margin: auto;
 	margin-bottom: 10px;
@@ -92,14 +123,15 @@ a
 
 #content1	
 {
-	margin: auto;
-	padding-left: 10px;
-	width: 986px;
+	margin:auto;
+	padding-left: 5px;
+	width: 80%;
 	height: 300px;
-	float: left;
 	border-style: groove;
 	border-width:2px;
 	margin-bottom: 10px;
+	box-sizing: border-box;
+	display: inline-block;
 }
 #content1 ul
 {
@@ -122,21 +154,18 @@ a
 {
 	margin: auto;
 	padding-left: 10px;
-	width: 986px;
+	width: 80%;
 	height: 300px;
-	float: left;
 	border-style: groove;
 	border-width:2px;
 	margin-bottom: 10px;
+	box-sizing: border-box;
+	display: inline-block;
 }
 #content2 ul
 {
-	margin: 10px;
-	list-style-position: inside; 
-	color: black;
-	line-height: 30px;
-	display: block;
-	text-align: left;
+	margin: auto;
+	padding-left: 10px;
 }
 #content2 ul a
 {
@@ -152,12 +181,13 @@ a
 {
 	margin: auto;
 	padding-left: 10px;
-	width: 986px;
+	width: 80%;
 	height: 300px;
-	float: left;
 	border-style: groove;
 	border-width:2px;
 	margin-bottom: 10px;
+	box-sizing: border-box;
+	display: inline-block;
 }
 #content3 ul
 {
@@ -174,19 +204,20 @@ a
 	list-style-position: inside; 
 	color: blue;
 	line-height: 30px;
-	text-align: left;
+	text-align: center;
 }
 #weather
 {
 	margin: auto;
 	height: 300px;
-	width: 225px;
-	float:right;
+	width: 20%;
 	border-style: groove;
 	border-width: 2px;
 	text-align: center;
 	margin-bottom: 10px;
-	margin-left: 5px;
+	vertical-align: top;
+	box-sizing: border-box;
+	display: inline-block;
 }
 #weather ul
 {
@@ -198,11 +229,12 @@ a
 {
 	margin: auto;
 	padding: 0px;
-	width: 1232px;
+	width: 100%;
 	height: 60px;
-	float: left;
+	display: inline-block;
 	border-style: groove;
 	border-width: 2px;
+	box-sizing: border-box;
 }
 #footer ul
 {
@@ -218,25 +250,23 @@ a
 {
 	margin: auto;
 	height: 300px;
-	width: 225px;
-	float:right;
+	width: 20%;
+	border-style: groove;
 	border-width: 2px;
 	text-align: center;
 	margin-bottom: 10px;
-	margin-left: 5px;
-	border-style: groove;
+	vertical-align: top;
+	box-sizing: border-box;
+	display: inline-block;
 }
 #youtube ul
 {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
-	background-color: pink;
 }
 #youtube ul a
 {
-	float: left;
-	text-decoration: border;
 	color: black;
 	line-height: 30px;
 	display: block;
@@ -246,13 +276,14 @@ a
 {
 	margin: auto;
 	height: 300px;
-	width: 225px;
-	float:right;
+	width: 20%;
 	border-style: groove;
 	border-width: 2px;
 	text-align: center;
 	margin-bottom: 10px;
-	margin-left: 5px;
+	vertical-align: top;
+	box-sizing: border-box;
+	display: inline-block;
 }
 #diendan ul
 {
@@ -263,7 +294,7 @@ a
 
 #diendan ul a
 {
-	float: left;
+	text-decoration: none;
 	color: black;
 	line-height: 30px;
 	display: block;
@@ -272,11 +303,15 @@ a
 
 #width1
 {
-	width: 246px;
+	width: 22.5%;
+	display: inline-block;
+	padding: 10px 10px;
 }
 #width2
 {
-	width: 328px;
+	width: 22.5%;
+	display: inline-block;
+	padding: 20px 50px;
 }
 #search
 {
