@@ -92,11 +92,13 @@ body
 	width: 100%;
 	height: 300px;
 	margin-bottom: 3px;
+	margin-top: 3px;
+	position: relative;
 }
 .content11
 {
 	width: 30%;
-	height: 100%;
+	height: 300px;
 	display: inline-block;
 	box-sizing: border-box;
 	position: relative;
@@ -104,7 +106,7 @@ body
 	padding-left: 40px;
 	border-right: 2px solid gray;
 }
-/* .content12
+.content12
 {
 	box-sizing: border-box;
 	width: 30%;
@@ -114,19 +116,37 @@ body
 	padding-top: 5px;
 	padding-left: 5px;
 	color: white;
-} */
-/* .content13
+	border-right: 2px solid gray;
+	position: absolute;
+}
+.content13
 {
 	width:90%;
 	height: 30%;
 	background: white;
 	margin-bottom: 10px;
-} */
+	border: 1px solid gray;
+	box-sizing: border-box;
+
+}
+.content14
+{
+	width: 30%;
+	height: 300px;
+	float: right;
+	margin-right: 134px;
+	padding-top: 5px;
+	padding-left: 5px;
+	box-sizing: border-box;
+}
 .text
 {
-	text-align: center;
-	float: left;
+	margin-top: 20px;
+	margin-right: 50px;
+	float: right;
+	width: 40%;
 	color: black;
+	text-align: center;
 }
 .imgcontent13
 {
@@ -168,6 +188,30 @@ body
 {
 	width: 90%;
 	height: 90%;
+}
+.content22
+{
+	box-sizing: border-box;
+	width: 30%;
+	height: 300px;
+	background: white;
+	display: inline-block;
+	padding-top: 5px;
+	padding-left: 5px;
+	color: white;
+	position: absolute;
+	border-right: 2px solid gray;
+}
+.content23
+{
+	width: 30%;
+	height: 300px;
+	float: right;
+	margin-right: 134px;
+	padding-top: 5px;
+	padding-left: 5px;
+	color: white;
+	box-sizing: border-box;
 }
 .footer
 {
