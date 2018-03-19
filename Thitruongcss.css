@@ -1,263 +1,143 @@
 *
 {
-padding : 0px;
-
+	padding : 0;
+	margin : 0;
 }
 body
 {
-width: 1236px;
-font-family: tahoma;
-margin: 0px auto;
+	font-family: sans-serif;
+	color: #333;
 }
-		#top
-		{
-			width: 1240px;
-			margin: auto;
-			height:30px;
-			background-color: blue; 
-		}
-		#top ul
-		{
-			padding: 0px;
-			list-style: none;
-		}
-		#top ul a
-		{
-			float: right;
-			text-decoration: none;
-			color: white;
-			display: block;
-			line-height: 30px; 
-			padding: 0px 30px 0px;
-			text-align: center;				
-		}
-		#top ul a:hover
-		{
-			background-color: gray;
-		}
-		
-		#header
-		{
-			background: url('../BTL-CNWeb/1.JPG') no-repeat;
-			width: : 1236px;
-			height: 180px;
-			display: block;
-		}
-	
-		#menu
-		{
-			width: 1240px;
-			height: 30px;
-			margin: auto;
-			background-color: blue;
-		}
-		#menu ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;  
-		}
-		#menu ul a
-		{
-			float: left;
-			text-decoration: none;
-			color: white;
-			line-height: 30px;
-			display: block;
-			padding: 0px 30px 0px 30px;
-			text-align: center;
-		}
-		#menu ul a:hover
-		{
-			background-color: gray;
-		}
-
-		#content1
-		{
-			margin: auto;
-			width: 1231px;
-			height: 100px;
-			font-size: 40px;
-			border: 2px solid black;
-			padding-left: 5px;
-			padding-top: 5px;
-			float: left;
-		}
-		#content1 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content1 ul a
-		{
-			
-			text-decoration: border;
-			color: red;
-			line-height: 70px;
-			display: block;
-			text-align: center;
-		}
-
-
-		#content2
-		{
-			margin: auto;
-			width: 1231px;
-			height: 300px;
-			font-size: 25px;
-			border: 2px solid black;
-			padding-left: 5px;
-			padding-top: 5px;
-			float: left;
-		}
-		#content2 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content2 ul a
-		{
-			float: left;
-			text-decoration: : border;
-			color: black;
-			line-height: 30px;
-			display: block;
-		}
-
-		
-		#content3
-		{
-			margin: auto;
-			width: 1231px;
-			height: 300px;
-			font-size: 25px;
-			border: 2px solid black;
-			padding-left: 5px;
-			padding-top: 5px;
-			float: left;
-		}
-		#content3 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content3 ul a
-		{
-			float: left;
-			text-decoration: border;
-			color: black;
-			line-height: 30px;
-			display: block;
-		}
-
-		#content4
-		{
-			margin: auto;
-			width: 1231px;
-			height: 300px;
-			font-size: 25px;
-			border: 2px solid black;
-			padding-left: 5px;
-			padding-top: 5px;
-			float: left;
-		}
-		#content4 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content4 ul a
-		{
-			float: left;
-			text-decoration: border;
-			color: black;
-			line-height: 30px;
-			display: block;
-
-		}
-
-
-		#content5
-		{
-			margin: auto;
-			width: 1231px;
-			height: 300px;
-			font-size: 25px;
-			border: 2px solid black;
-			padding-left: 5px;
-			padding-top: 5px;
-			float: left;
-		}
-		#content5 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content5 ul a
-		{
-			float: left;
-			text-decoration: border;
-			color: black;
-			line-height: 30px;
-			display: block;
-
-		}
-
-		#content6
-		{
-			margin: auto;
-			width: 1231px;
-			height: 300px;
-			font-size: 25px;
-			border: 2px solid black;
-			padding-left: 5px;
-			padding-top: 5px;
-			float: left;
-		}
-		#content5 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content5 ul a
-		{
-			float: left;
-			text-decoration: border;
-			color: black;
-			line-height: 30px;
-			display: block;
-
-		}
-
-		#content7
-		{
-			margin: auto;
-			width: 1231px;
-			height: 300px;
-			font-size: 25px;
-			border: 2px solid black;
-			padding-left: 5px;
-			padding-top: 5px;
-			float: left;
-		}
-		#content5 ul
-		{
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
-		}
-		#content5 ul a
-		{
-			float: left;
-			text-decoration: border;
-			color: black;
-			line-height: 30px;
-			display: block;
-
-		}
+.wrap
+{
+	width: 100%
+}
+.top
+{
+	width: 100%;
+	margin: auto;
+	height:30px;
+	background-color: blue; 
+}
+.top ul
+{
+	padding: 0px;
+	list-style: none;
+}
+.top ul a
+{
+	float: right;
+	text-decoration: none;
+	color: white;
+	display: block;
+	line-height: 30px; 
+	padding: 0px 30px 0px;
+	text-align: center;
+}
+.top ul a:hover
+{
+	background-color: gray;
+}
+.imgheader
+{
+	width: 100%;
+	height: 300%;
+}
+.menu
+{
+	width: 100%;
+	margin: auto;
+	height:50px;
+	background-color: blue; 
+}
+.menu ul
+{
+	padding: 0px;
+	list-style: none;
+}
+.menu ul a
+{
+	float: left;
+	text-decoration: none;
+	color: white;
+	display: block;
+	line-height: 50px; 
+	padding: 0px 30px 0px;
+	text-align: center;
+}
+.menu ul a:hover
+{
+	background-color: gray;
+}
+.container
+{
+	width: 40%;
+	float: right;
+	padding-right: 60px;
+	padding-top: 10px;
+}
+.search
+{
+	width: 100%;
+	height: 30px;
+	background: white;
+	border: none;
+	float: left;
+	color: black;
+	padding-left: 30px;
+	font-size: 10pt;
+}
+.content1
+{
+	width: 25%;
+	height: 250px;
+	position: relative;
+	border: 10px solid white;
+	box-sizing: border-box;
+	background: white;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+.imgcontent
+{
+	width: 100%;
+	height: 100%;
+}
+.list-img{width: 90%;margin:0px auto;height: 40vh}
+.bottom1
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 18px;
+	width: 100%;
+	height: 20%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5)
+}
+.list-price
+{
+	width: 90%;
+	height: 300px;
+	box-sizing: border-box;
+	border-right: 10px;
+	border-left: 10px;
+	margin: 0px auto;
+}
+.footer
+{
+	border-top: 5px solid white;
+	width: 100%;
+	height: 100px;
+	background: blue;
+}
+.footer1
+{
+	width: 30%;
+	height: 100%;
+	float: right;
+	padding: 30px;
+	color: white;
+	text-align: center;
+}
