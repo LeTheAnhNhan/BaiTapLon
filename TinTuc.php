@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Tin Tức</title>
 	<link rel="stylesheet" href="TinTuc.css">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 	<div class="wrap">
@@ -12,7 +11,6 @@
 			<ul>
 				<li><a href="#">Liên Hệ</a></li>
 				<li><a href="#">Giới Thiệu</a></li>
-				<li><a href="#">Trang Chủ</a></li>
 			</ul>
 		</div>
 
@@ -22,14 +20,13 @@
 			
 		<div class="menu">
 			<ul>
-				<li><a href="#">Tin Tức</a></li>
-				<li><a href="#">Thị Trường</a></li>
-				<li><a href="#">Tài Liệu</a></li>
-				<li><a href="#">Trồng Trọt</a></li>
-				<li> <a href="#">Chăn Nuôi</a></li>
+				<li><a href="trangchu.php">Trang Chủ</a></li>
+				<li><a href="tintuc.php">Tin Tức</a></li>
+				<li><a href="thitruong.php">Thị Trường</a></li>
+				<li><a href="tailieu.php">Tài Liệu</a></li>
+				<li><a href="maymoc.php">Công cụ</a></li>
 			</ul>
 			<div class="container">
-	      		<span class="icon"><i class="fa fa-search"></i></span>
 	      		<input type="search" class="search" placeholder="Search..." />
 	  		</div>
 		</div>

@@ -21,11 +21,11 @@
 			
 		<div class="menu">
 			<ul>
-				<li><a href="#">Trang Chủ</a></li>
-				<li><a href="#">Tin Tức</a></li>
-				<li><a href="#">Thị Trường</a></li>
-				<li><a href="#">Tài Liệu</a></li>
-				<li><a href="#">Công cụ</a></li>
+				<li><a href="trangchu.php">Trang Chủ</a></li>
+				<li><a href="tintuc.php">Tin Tức</a></li>
+				<li><a href="thitruong.php">Thị Trường</a></li>
+				<li><a href="tailieu.php">Tài Liệu</a></li>
+				<li><a href="maymoc.php">Công cụ</a></li>
 			</ul>
 			<div class="container">
 	      		<span class="icon"><i class="fa fa-search"></i></span>
