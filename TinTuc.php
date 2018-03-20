@@ -9,7 +9,7 @@
 <body>
 	<div id="top">
 		<ul class="mn" style="vertical-align: middle;">
-			<li><a href="#">Đăng nhập</a></li>
+			<li><a href="login.php">Đăng nhập</a></li>
 			<li><a href="#">Liên Hệ</a></li>
 			<li><a href="#">Giới Thiệu</a></li>
 		</ul>
