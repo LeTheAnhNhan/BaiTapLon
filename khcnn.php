@@ -41,10 +41,8 @@
 	</div>
 	
 
-	<div id="content0">
-		<ul>
-			<li><a><b>Khoa Hoc Công Nghệ<b></a></li>
-		</ul>
+	<div class="title">
+		<h2>Khoa học công nghệ</h2>
 	</div>	
 <br>
 	<div class="content1">
