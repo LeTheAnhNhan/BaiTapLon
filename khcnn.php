@@ -42,7 +42,7 @@
 	
 
 	<div class="title">
-		<h2>Khoa học công nghệ</h2>
+		<h1 style="text-align:center; color:red;">Khoa học công nghệ</h1> 
 	</div>	
 <br>
 	<div class="content1">
@@ -53,15 +53,18 @@
 		<div class="content12">
 			<div class="content13">
 				<img class="imgcontent13" src="image/dpn.jpg" alt="">
-				<div class="text">Điện phân nước trong chăn nuôi</div>
+				<div class="text">
+					<a href="http://ietvn.vn/tin-tuc/Ung-dung-cong-nghe-dien-phan-nuoc-trong-chan-nuoi/3734.aspx" target="_blank"><b>Điện phân nước trong chăn nuôi<b></div>
 			</div>
 			<div class="content13">
 				<img class="imgcontent13" src="image/hoalan.jpg" alt="">
-				<div class="text">Trồng hoa lan bằng công nghệ cao</div>
+				<div class="text">
+					<a href="https://bansacviet.tuoitre.vn/tin/2017/10/12/thi-anh/trong-lan-cong-nghe-cao/583.html" target="_blank"><b>Trồng hoa lan bằng công nghệ cao<b></div>
 			</div>
 			<div class="content13">
 				<img class="imgcontent13" src="image/thanh-long-globalGap.jpg" alt="">
-				<div class="text">Trồng thanh long theo quy trình GlobalGAPs</div>
+				<div class="text">
+					<a href="http://khcn.mard.gov.vn/Pages/nhan-rong-mo-hinh-trong-thanh-long-theo-quy-trinh-globalgap.aspx" target="_blank"><b>Trồng thanh long theo quy trình GlobalGAPs<b></div>
 			</div>
 		</div>
 	</div>
@@ -75,15 +78,18 @@
 		<div class="content22">
 			<div class="content13">
 				<img class="imgcontent13" src="image/hoithao.jpg" alt="">
-				<div class="text">Hội thảo quốc tế về Khoa học Nông nghiệp Hữu cơ lần thứ 4 tại Hungary</div>
+				<div class="text"> 
+					<a href="https://www.mard.gov.vn/Pages/hoi-thao-quoc-te-ve-khoa-hoc-nong-nghiep-huu-co-lan-thu-4-tai-hungary-17665.aspx" target="_blank">Hội thảo quốc tế về Khoa học Nông nghiệp Hữu cơ lần thứ 4 tại Hungary</div>
 			</div>
 			<div class="content13">
 				<img class="imgcontent13" src="image/sarat-3.jpg" alt="">
-				<div class="text">Vườn thực nghiệm nông nghiệp thông minh</div>
+				<div class="text">
+					<a href="http://www.tdtu.edu.vn/tin-tuc/2018-03/nhung-san-pham-dau-tien-cua-vuon-thuc-nghiem-nong-nghiep-thong-minh" target="_blank">Vườn thực nghiệm nông nghiệp thông minh</div>
 			</div>
 			<div class="content13">
 				<img class="imgcontent13" src="image/TQ.jpg" alt="">
-				<div class="text">chăn nuôi lợn</div>
+				<div class="text">
+					<a href="http://baoquocte.vn/trung-quoc-ung-dung-hieu-qua-khoa-hoc-cong-nghe-trong-nong-nghiep-59220.html" target="_blank">Trung Quốc ứng dụng hiệu quả khoa học công nghệ trong nông nghiệp</div>
 			</div>
 		</div>
 		

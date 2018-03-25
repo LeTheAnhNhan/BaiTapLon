@@ -87,6 +87,14 @@ a
 	background-color: gray;
 }
 
+.title
+{
+	border-bottom: 2px solid black;
+	height: 100px;
+	width: 100%;
+	padding-top: 50px;
+
+}
 
 .mennubar
 {
