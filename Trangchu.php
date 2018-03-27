@@ -4,6 +4,7 @@
 	<title>Trang Chủ</title>
 	<link rel="stylesheet" type="text/css" href="tc.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="slide.js"></script>
 </head>
 <body>
 	<div id="top">
@@ -31,9 +32,33 @@
 				</div>
 		</div>
 	</div>
-
+	
 	<div id="slider">
-		<img src="image/2.jpg" width="100%" height="175px">
+		<script>
+			var i=0;
+			var images = [];
+			var time = 3000;
+
+			images[0] = 'image/slide1.jpeg';
+			images[1] = 'image/slide2.jpeg';
+			images[2] = 'image/slide3.jpeg';
+			images[3] = 'image/slide4.jpeg';
+			images[4] = 'image/slide5.jpeg';
+			images[5] = 'image/slide6.jpeg';
+
+			function changeimage(){
+				document.slide.src =images[i];
+				if(i<images.length - 1){
+					i++;
+				}else{
+					i=0;
+				}
+				setTimeout("changeimage()",time);
+			}
+
+			window.onload = changeimage;
+		</script>
+		<img name="slide" width="100%" height="100%">
 	</div>
 
 
@@ -44,16 +69,13 @@
 				<div id="width1">
 					<a href="#"><img src="image/thit.jpg" width="100%" height="150px" ></a><br>
 					<a href="#">Cuộc chiến "chống thịt giả" đã bắt đầu: thịt là gì?</a>
-				</div>
-				<div id="width1">
+				</div><div id="width1">
 					<a href="#"><img src="image/ca.jpg" width="100%" height="150px" alt=""></a><br>
 					<a href="#">Sản xuất chế biến thịt sữa có lo ngại CPTPP?</a>
-				</div>
-				<div id="width1">
+				</div><div id="width1">
 					<a href="#"><img src="image/nhamay.jpg" width="100%" height="150px" alt=""></a><br>
 					<a href="#">Hạn chế đầu tư nhà máy thức ăn chăn nuôi</a>
-				</div>
-				<div id="width1">
+				</div><div id="width1">
 					<a href="#"><img src="image/mohinh.jpg" width="100%" height="150px" alt=""></a><br>
 					<a href="#">Thay đổi mô hình sử dụng kháng sinh trong chăn nuôi lợn</a>
 				</div>
