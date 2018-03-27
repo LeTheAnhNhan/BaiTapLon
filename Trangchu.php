@@ -84,7 +84,8 @@
 				</div>
 			</div>
 		</div><div id="youtube">
-			<a href="https://www.youtube.com/user/cungnongdanlamgiau" target="_blank"><img src="image/youtube.jpg" alt="youtube"></a>
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/b3IjDWYvwnw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<!--<a href="https://www.youtube.com/user/cungnongdanlamgiau" target="_blank"><img src="image/youtube.jpg" alt="youtube">-->
 			<ul>
 				<li><a href="https://www.youtube.com/user/cungnongdanlamgiau" target="_blank">Kênh Youtube Chia Sẻ Kiến Thức</a></li>
 			</ul>
@@ -131,8 +132,9 @@
 				<li><a href="#">Thu tiền tỷ mỗi năm từ trang trại trồng dưa</a></li>
 			</ul>
 		</div><div id="weather">
-			<a href="#"><img src="image/sun.jpg" alt=""></a>
-			<p><a href="#">Dự báo thời tiết</a></p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7448.779271904347!2d105.8134888864834!3d21.017090181054712!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1521811469005" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<!--<a href="#"><img src="image/sun.jpg" alt=""></a>
+			<p><a href="#">Dự báo thời tiết</a></p>-->
 		</div>
 	</div>
 
