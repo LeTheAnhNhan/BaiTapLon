@@ -69,16 +69,13 @@
 				<div id="width1">
 					<a href="#"><img src="image/thit.jpg" width="100%" height="150px" ></a><br>
 					<a href="#">Cuộc chiến "chống thịt giả" đã bắt đầu: thịt là gì?</a>
-				</div>
-				<div id="width1">
+				</div><div id="width1">
 					<a href="#"><img src="image/ca.jpg" width="100%" height="150px" alt=""></a><br>
 					<a href="#">Sản xuất chế biến thịt sữa có lo ngại CPTPP?</a>
-				</div>
-				<div id="width1">
+				</div><div id="width1">
 					<a href="#"><img src="image/nhamay.jpg" width="100%" height="150px" alt=""></a><br>
 					<a href="#">Hạn chế đầu tư nhà máy thức ăn chăn nuôi</a>
-				</div>
-				<div id="width1">
+				</div><div id="width1">
 					<a href="#"><img src="image/mohinh.jpg" width="100%" height="150px" alt=""></a><br>
 					<a href="#">Thay đổi mô hình sử dụng kháng sinh trong chăn nuôi lợn</a>
 				</div>
