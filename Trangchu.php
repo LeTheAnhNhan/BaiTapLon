@@ -59,10 +59,7 @@
 			window.onload = changeimage;
 		</script>
 		<img name="slide" width="100%" height="100%">
-	</div>
-
-
-	<div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;background-image:'background.jpg';" >
+	</div><div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;background-image:'background.jpg';" >
 		<div id="content1">
 			<h2><a href="#">Tin Tức Chung</a></h2><br>
 			<div style="margin: 0px auto">
