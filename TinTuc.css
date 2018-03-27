@@ -37,9 +37,10 @@ a
 }
 #top ul a:hover
 {
-	background-color: gray;
+	
+	background-color: #FF3333;
+	transition: all 1s ease-in-out;
 }
-
 .container
 {
 	position: relative;
@@ -87,7 +88,9 @@ a
 }
 #menu ul a:hover
 {
-	background-color: gray;
+	background-color: #FF0033;
+	transition: all 1s ease-in-out;
+
 }
 .mennubar
 {
