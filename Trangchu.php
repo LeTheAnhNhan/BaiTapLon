@@ -39,12 +39,12 @@
 			var images = [];
 			var time = 3000;
 
-			images[0] = 'image/slide1.jpeg';
-			images[1] = 'image/slide2.jpeg';
-			images[2] = 'image/slide3.jpeg';
-			images[3] = 'image/slide4.jpeg';
-			images[4] = 'image/slide5.jpeg';
-			images[5] = 'image/slide6.jpeg';
+			images[0] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-wallpaper-16697-17237-hd-wallpapers-768x480.jpg';
+			images[1] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-wallpaper-16681-17220-hd-wallpapers-768x432.jpg';
+			images[2] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-wallpaper-16694-17234-hd-wallpapers-768x432.jpg';
+			images[3] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-fence-wide-wallpaper-50435-52126-hd-wallpapers-768x480.jpg';
+			images[4] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-wallpaper-16687-17226-hd-wallpapers-768x432.jpg';
+			images[5] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-landscape-wallpaper-50436-52127-hd-wallpapers-768x480.jpg';
 
 			function changeimage(){
 				document.slide.src =images[i];
@@ -62,7 +62,7 @@
 	</div>
 
 
-	<div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;" >
+	<div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;background-image:'background.jpg';" >
 		<div id="content1">
 			<h2><a href="#">Tin Tức Chung</a></h2><br>
 			<div style="margin: 0px auto">
