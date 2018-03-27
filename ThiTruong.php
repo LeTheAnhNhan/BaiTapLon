@@ -20,11 +20,11 @@
 
 	<div id="menu">
 		<ul class="mn" style="width: 60%;display: inline-block;vertical-align: top">
-			<li><a href="#">Trang chủ</a></li>
-			<li><a href="#">Tin Tức</a></li>
-			<li><a href="#">Thị Trường</a></li>
+			<li><a href="Trangchu.php">Trang chủ</a></li>
+			<li><a href="TinTuc.php">Tin Tức</a></li>
+			<li><a href="ThiTruong.php">Thị Trường</a></li>
 			<li><a href="tailieu.php">Tài Liệu</a></li>	
-			<li><a href="#">Máy Hỗ Trợ</a></li>	
+			<li><a href="maymoc.php">Máy Hỗ Trợ</a></li>	
 		</ul><div class="container" style="width: 40%;display: inline-block;vertical-align: top;line-height: 48px;">
 				<span class="icon"><i class="search" ></i></span>
 				<input type="search" id="search" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">

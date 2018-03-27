@@ -111,7 +111,6 @@ a
 	width: 80%;
 	height: 300px;
 	border-right: groove;
-	border-width::;x;
 	box-sizing: border-box;
 	display: inline-block;
 	background-image: url('../BaiTapLon/image/bg.jpg');
@@ -142,6 +141,9 @@ a
 	border-width:2px;
 	box-sizing: border-box;
 	display: inline-block;
+	background-image: url('../BaiTapLon/image/bg.jpg');
+	text-decoration-color: white;
+	vertical-align: top;
 }
 #content2 ul
 {
@@ -168,6 +170,8 @@ a
 	border-width:2px;
 	box-sizing: border-box;
 	display: inline-block;
+	background-image: url('../BaiTapLon/image/bg.jpg');
+	text-decoration-color: white;
 }
 #content3 ul
 {
@@ -177,6 +181,7 @@ a
 	line-height: 30px;
 	display: block;
 	text-align: left;
+	list-style-type: none;
 }
 #content3 ul a
 {
@@ -185,6 +190,7 @@ a
 	color: blue;
 	line-height: 30px;
 	text-align: center;
+	color: black;
 }
 #weather
 {
@@ -283,6 +289,7 @@ a
 	width: 22.5%;
 	display: inline-block;
 	padding: 0px 50px;
+	vertical-align: top;
 }
 #search
 {

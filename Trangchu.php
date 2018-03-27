@@ -7,15 +7,13 @@
 	<script src="slide.js"></script>
 </head>
 <body>
-	
 	<div id="top">
-		<ul class="mn" style="vertical-align: middle;">
+		<ul class="mn">
 			<li><a href="dangnhap.php">Đăng nhập</a></li>
 			<li><a href="#">Liên Hệ</a></li>
 			<li><a href="#">Giới Thiệu</a></li>
 		</ul>
 	</div>
-
 	<div id="header"><img src="image/1.JPG" alt="" style="margin: 0px auto;"></div>
 
 	<div id="menu">
@@ -90,7 +88,7 @@
 
 
 	
-	<div class="tdn" style="border-bottom: groove; border-width: 5px;"">
+	<div class="tdn" style="border-bottom: groove; border-width: 5px;">
 		<div id="content2">
 			<h2><a href="#">Khoa Học Công Nghệ</a></h2><br>
 			<div>
