@@ -7,6 +7,7 @@
 	<script src="slide.js"></script>
 </head>
 <body>
+	
 	<div id="top">
 		<ul class="mn" style="vertical-align: middle;">
 			<li><a href="dangnhap.php">Đăng nhập</a></li>
