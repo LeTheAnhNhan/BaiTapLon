@@ -7,11 +7,23 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+	<?php session_start(); ?>
+	<?php if(isset($_POST["btndangxuat"])) 
+		unset($_SESSION["txtuser"]);
+		// header('Location:trangchu.php');
+	?>
 	<div id="top">
 		<ul class="mn" style="vertical-align: middle;">
-			<li><a href="dangnhap.php">Đăng nhập</a></li>
-			<li><a href="#">Liên Hệ</a></li>
-			<li><a href="#">Giới Thiệu</a></li>
+			<div id="dx">
+				<?php if(isset($_SESSION['txtuser'])) {?>
+				<p style="float:right;">Xin chao - <?php echo $_SESSION['txtuser'] ?></p>
+				<form method="POST"><button name="btndangxuat" style="display: inline-block;">Đăng xuất</button></form>
+				<?php }else{ ?>
+				<a href="dangnhap.php">Đăng Nhập</a>
+				<a href="#">Liên Hệ</a>
+				<a href="#">Giới Thiệu</a>
+				<?php } ?>
+			</div>
 		</ul>
 	</div>
 	<div id="header"><img src="image/1.JPG" alt="" style="margin: 0px auto;"></div>
