@@ -10,6 +10,7 @@
 		<?php include('top.php') ?>
 	
 		<?php include('slide.php') ?>
+
 		<div class="title">
 			<h2>Thị Trường Nông Nghiệp</h2>
 		</div>
