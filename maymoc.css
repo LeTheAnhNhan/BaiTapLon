@@ -3,6 +3,7 @@
 	padding : 0px;
 	margin : 0px;
 }
+/* Thuộc tính chung của phần body */
 body
 {
 	width: 100%;
@@ -13,6 +14,7 @@ a
 {
 	text-decoration: none;
 }
+/* Thuộc tính của thẻ top */
 #top
 {
 	width: 100%;
