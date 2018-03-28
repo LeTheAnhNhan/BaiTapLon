@@ -1,5 +1,6 @@
 <?php
 		include("connect.php");
+		//code chức năng đăng kí
 		if(isset($_POST['btndangky'])){
 			$name=mysqli_real_escape_string($link,$_POST['txtuser']);
 			$password=mysqli_real_escape_string($link,$_POST['txtpass']);
@@ -19,6 +20,10 @@
 				}
 			}	
 		}
+		if(isset($_POST['btndangnhap']))
+		{
+			header("location: dangnhap.php");
+		}
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +31,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Đăng Ký</title>
-	<link rel="stylesheet" href="dangnhap.css" type="text/css">
+	<link rel="stylesheet" href="dangky.css" type="text/css">
 </head>
 <body>
 	<form  action="" method="POST" id="frm">
@@ -34,7 +39,8 @@
 		<input id="a" type="text" id="user" name="hoten" placeholder="Họ và tên">
 		<input id="a" type="text" id="user" name="txtuser" placeholder="Tên Đăng Nhập">
 		<input id="a" type="text" id="pass" name="txtpass" placeholder="Mật Khẩu">	
-		<input id="b" type="submit" name="btndangky" value="Đăng Ký">	
+		<input id="b" type="submit" name="btndangky" value="Đăng Ký">
+		<input id="b" type="submit" name="btndangnhap" value="Đăng Nhập">	
 	</form>
 	
 </body>
