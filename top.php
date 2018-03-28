@@ -19,7 +19,7 @@
 				<form method="POST"><button name="btndangxuat" style="display: inline-block;">Đăng xuất</button></form>
 				<?php }else{ ?>
 				<a href="dangnhap.php">Đăng Nhập</a>
-				<a href="#">Đăng Ký</a>
+				<a href="dangky.php">Đăng Ký</a>
 				<a href="#">Liên Hệ</a>
 				<a href="#">Giới Thiệu</a>
 				<?php } ?>
