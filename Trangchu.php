@@ -10,8 +10,12 @@
 
 	<?php include('slide.php') ?>
 
+<<<<<<< HEAD
 
 	<div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;" >
+=======
+	<div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;background-image:'background.jpg';" >
+>>>>>>> c26db98a1e6fd872010c6f245e435344eb234b1b
 		<div id="content1">
 			<h2><a href="#">Tin Tức Chung</a></h2><br>
 			<div style="margin: 0px auto">
