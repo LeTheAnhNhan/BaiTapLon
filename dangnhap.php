@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="dangnhap.css" type="text/css">
 </head>
 <body>
-	<form  action="" method="POST" id="frm">
+	<form  action="" method="post" id="frm">
 		<h2>Đăng nhập</h2>
 		<input id="a" type="text" id="user" name="txtuser" placeholder="Tên Đăng Nhập">
 		<input id="a" type="text" id="pass" name="txtpass" placeholder="Mật Khẩu">	
@@ -14,11 +14,7 @@
 	</form>
 	<?php
 		include("connect.php");
-		//$sql ="select tendangnhap,matkhau from thanhvien where tendangnhap ='".$_POST['txtuser']."' and matkhau='".$_POST['txtpass']."'";
-		//$result = mysqli_query($link,$sql);
-		//$txtuser=mysqli_real_escape_string($link,$_POST['txtuser']);
-		//$txtpass=mysqli_real_escape_string($link,$_POST['txtpass']);
-		//$sql = "select tendangnhap,matkhau from thanhvien where tendangnhap ='".$_POST['txtuser']."' and matkhau='".$_POST['txtpass']."'";
+		
 		session_start();
 		if(isset($_POST['btndangnhap']))
 		{

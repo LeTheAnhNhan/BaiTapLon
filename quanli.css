@@ -1,0 +1,38 @@
+#dulieu
+{
+	width: 60%;
+	border: 1px solid #ddd;
+	margin: 0px auto;
+	background: linear-gradient(lightgreen,lightyellow);
+	text-align: center;
+}
+h2
+{
+	text-align: center;
+}
+#place
+{
+	margin: 40px auto;
+	width: 85%;
+	display: block;
+	border: none;
+	padding: 10px 0;
+	border-bottom: solid 1px #1abc9c;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+	background-position: -200px 0;
+	background-size: 200px 100%;
+	background-repeat: no-repeat;
+}
+
+#nut
+{
+	border: none;
+	background: lightgreen;
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 6px;
+	width: 25%;
+	color: black;
+	margin-left: 20px;
+}
+

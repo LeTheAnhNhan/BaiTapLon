@@ -9,11 +9,12 @@
 <body>
 	<div id="top">
 		<ul class="mn" style="vertical-align: middle;">
-			<li><a href="dangnhap.php">Đăng nhập</a></li>
-			<li><a href="#">Liên Hệ</a></li>
-			<li><a href="#">Giới Thiệu</a></li>
+			<div id =dx>
+				
+			</div>
 		</ul>
 	</div>
+
 	<div id="header"><img src="image/1.JPG" alt="" style="margin: 0px auto;"></div>
 
 	<div id="menu">
@@ -24,12 +25,33 @@
 				<li><a href="tailieu.php">Tài Liệu</a></li>
 				<li><a href="maymoc.php">Công cụ</a></li>	
 		</ul><div class="container" style="width: 40%;display: inline-block;vertical-align: top;line-height: 48px;">
-				<span class="icon"><i class="search" ></i></span>
-				<input type="search" id="search" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
+			<form action="" method="post">
+				<input type="text" id="search" name="txtsearch" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
 				<div id="iconsearch">
-					<i class="fa fa-search" style="padding: 15px 15px;" ></i>
+					 <input type="submit" name="btnsearch" value="search" />
+					<!--<button type="summit" name="search" style="background-color: blue;"><i class="fa fa-search" style="padding: 15px 15px;" ></i></button>-->
 				</div>
+			</form>
 		</div>
 	</div>
+	<?php
+		include('connect.php');
+		if (isset($_POST['btnsearch']))
+		{	
+			$sql = "SELECT noidung FROM `baidang` WHERE tenbaidang LIKE '%".$_POST['txtsearch']."%'";
+			$result = mysqli_query($link,$sql);
+			if($_POST['txtsearch'] == Null)
+			{
+				echo 'Bạn cần nhập nội dung!';
+			}
+			else if(mysqli_num_rows($result)>0)
+			{
+				echo 'có bản ghi';
+			}
+			else
+				echo 'không có!';
+		}
+		mysqli_close($link);
+	?>
 </body>
 </html>
