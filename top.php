@@ -35,7 +35,8 @@
 				<li><a href="tintuc.php">Tin Tức</a></li>
 				<li><a href="thitruong.php">Thị Trường</a></li>
 				<li><a href="tailieu.php">Tài Liệu</a></li>
-				<li><a href="maymoc.php">Công cụ</a></li>	
+				<li><a href="maymoc.php">Công cụ</a></li>
+				<li><a href="quanli.php">Quản lí bài đăng</a></li>
 		</ul><div class="container" style="width: 40%;display: inline-block;vertical-align: top;line-height: 48px;">
 			<form action="" method="post">
 				<input type="text" id="search" name="txtsearch" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
@@ -48,6 +49,7 @@
 	</div>
 	<?php
 		include('connect.php');
+		//thêm chức năng search
 		if (isset($_POST['btnsearch']))
 		{	
 			$sql = "SELECT noidung FROM `baidang` WHERE tenbaidang LIKE '%".$_POST['txtsearch']."%'";
