@@ -3,64 +3,12 @@
 	<meta charset="UTF-8">
 	<title>Trang Chủ</title>
 	<link rel="stylesheet" type="text/css" href="tc.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="slide.js"></script>
+	<script src="script.js"></script>
 </head>
 <body>
-	
-	<div id="top">
-		<ul class="mn" style="vertical-align: middle;">
-			<li><a href="dangnhap.php">Đăng nhập</a></li>
-			<li><a href="#">Liên Hệ</a></li>
-			<li><a href="#">Giới Thiệu</a></li>
-		</ul>
-	</div>
+	<?php include('top.php') ?>
 
-	<div id="header"><img src="image/1.JPG" alt="" style="margin: 0px auto;"></div>
-
-	<div id="menu">
-		<ul class="mn" style="width: 60%;display: inline-block;vertical-align: top">
-			<li><a href="trangchu.php">Trang Chủ</a></li>
-				<li><a href="tintuc.php">Tin Tức</a></li>
-				<li><a href="thitruong.php">Thị Trường</a></li>
-				<li><a href="tailieu.php">Tài Liệu</a></li>
-				<li><a href="maymoc.php">Công cụ</a></li>	
-		</ul><div class="container" style="width: 40%;display: inline-block;vertical-align: top;line-height: 48px;">
-				<span class="icon"><i class="search" ></i></span>
-				<input type="search" id="search" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
-				<div id="iconsearch">
-					<i class="fa fa-search" style="padding: 15px 15px;" ></i>
-				</div>
-		</div>
-	</div>
-	
-	<div id="slider">
-		<script>
-			var i=0;
-			var images = [];
-			var time = 3000;
-
-			images[0] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-wallpaper-16697-17237-hd-wallpapers-768x480.jpg';
-			images[1] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-wallpaper-16681-17220-hd-wallpapers-768x432.jpg';
-			images[2] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-wallpaper-16694-17234-hd-wallpapers-768x432.jpg';
-			images[3] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-fence-wide-wallpaper-50435-52126-hd-wallpapers-768x480.jpg';
-			images[4] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-wallpaper-16687-17226-hd-wallpapers-768x432.jpg';
-			images[5] = 'http://blog.hdwallsource.com/wp-content/uploads/2016/03/farm-landscape-wallpaper-50436-52127-hd-wallpapers-768x480.jpg';
-
-			function changeimage(){
-				document.slide.src =images[i];
-				if(i<images.length - 1){
-					i++;
-				}else{
-					i=0;
-				}
-				setTimeout("changeimage()",time);
-			}
-
-			window.onload = changeimage;
-		</script>
-		<img name="slide" width="100%" height="100%">
-	</div>
+	<?php include('slide.php') ?>
 
 
 	<div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;background-image:'background.jpg';" >
@@ -68,8 +16,8 @@
 			<h2><a href="#">Tin Tức Chung</a></h2><br>
 			<div style="margin: 0px auto">
 				<div id="width1">
-					<a href="#"><img src="image/thit.jpg" width="100%" height="150px" ></a><br>
-					<a href="#">Cuộc chiến "chống thịt giả" đã bắt đầu: thịt là gì?</a>
+					<img src="image/thit.jpg" width="100%" height="150px" ><br>
+					<a href="#">Cuộc chiến chống “thịt giả” đã bắt đầu: Thịt là gì?</a>
 				</div><div id="width1">
 					<a href="#"><img src="image/ca.jpg" width="100%" height="150px" alt=""></a><br>
 					<a href="#">Sản xuất chế biến thịt sữa có lo ngại CPTPP?</a>
@@ -93,7 +41,7 @@
 
 
 	
-	<div class="tdn" style="border-bottom: groove; border-width: 5px;"">
+	<div class="tdn" style="border-bottom: groove; border-width: 5px;">
 		<div id="content2">
 			<h2><a href="#">Khoa Học Công Nghệ</a></h2><br>
 			<div>
@@ -136,12 +84,6 @@
 		</div>
 	</div>
 
-
-	<div id="footer">
-		<ul>
-			<p>Điện thoại liên hệ:...............</p>
-			<p>Gmail:................................</p>
-		</ul>
-	</div>
+	<?php include('footer.php') ?>
 </body>
 </html>

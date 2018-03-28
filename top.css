@@ -8,11 +8,6 @@ body
 	width: 100%;
 	margin: 0px auto;
 }
-
-a
-{
-	text-decoration: none;
-}
 #top
 {
 	width: 100%;
@@ -40,6 +35,10 @@ a
 	background-color: #FF3333;
 	transition: all 1s ease-in-out;
 }
+.mn
+{
+	line-height:50px;
+}
 
 .container
 {
@@ -56,11 +55,11 @@ a
 }
 #header
 {
-	height: 180px;
 	width: 100%;
-	text-align: center;
+	height: 180px;
 	display: block;
-	margin:  0 auto;
+	margin: 0px auto;
+	text-align: center;
 }
 
 
@@ -91,22 +90,12 @@ a
 {
 	background-color: #FF0033;
 	transition: all 1s ease-in-out;
-
 }
 .mennubar
 {
 	border-right:  1px solid white; 
 }
 
-#slider
-{
-	margin: 0px auto;
-	background: url('image/2.jpg') no-repeat;
-	width: : 100%;
-	height: 175px;
-	margin: auto;
-
-}
 #search
 {
 	height: 30px;
@@ -116,34 +105,4 @@ a
 	display: inline-block;
 	margin: 0px auto;
 	outline-style: none;
-}
-
-#iconsearch
-{
-	background-color: blue;
-	position: absolute;
-	right: 110px;
-	top: 0;
-	color: white;
-}
-
-.maymoc
-{
-	width: 25%;
-	box-sizing: border-box;
-	padding: 10px 10px 10px 10px;
-	text-align: center;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.b
-{
-	width: 100%;
-	height: 60%;
-}
-.hotrotrongtrot
-{
-	border-bottom-style: groove;
-	border-width: 1px;
 }

@@ -3,39 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Máy hỗ trợ	</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="maymoc.css">
 </head>
 <body>
-	<div id="top" style="width: 100%;margin: auto;height:50px;background-color: blue;">
-		<ul class="mn" style="vertical-align: middle;">
-			<li><a href="#">Liên Hệ</a></li>
-			<li><a href="#">Giới Thiệu</a></li>
-		</ul>
-	</div>
+	<?php include('top.php') ?>
 
-	<div id="header"><img src="image/1.JPG" alt=""></div>
-
-	<div id="menu">
-		<ul class="mn" style="width: 60%;display: inline-block;vertical-align: top">
-			<li><a href="trangchu.php">Trang Chủ</a></li>
-				<li><a href="tintuc.php">Tin Tức</a></li>
-				<li><a href="thitruong.php">Thị Trường</a></li>
-				<li><a href="tailieu.php">Tài Liệu</a></li>
-				<li><a href="maymoc.php">Công cụ</a></li>	
-		</ul><div class="container" style="width: 40%;display: inline-block;vertical-align: top;line-height: 48px;">
-				<span class="icon"><i class="search" ></i></span>
-				<input type="search" id="search" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
-				<div id="iconsearch">
-					<i class="fa fa-search" style="padding: 15px 15px;" ></i>
-				</div>
-		</div>
-	</div>
-
-	<div id="slider">
-		<img src="image/2.jpg" width="100%" height="175px">
-	</div>
-
+	<?php include('slide.php') ?>
+	
 	<div class="hotrotrongtrot" style="width: 100%;height:70vh;padding: 10px;box-sizing: border-box;background-color: #ddd">
 		<div class="content" style="width: 90%;margin:35px auto;height: 80%">
 			<h2 style="margin-bottom: 20px;margin-top: 20px;">Máy Móc Hỗ Trợ Trồng Trọt</h2>
@@ -102,12 +76,7 @@
 		</div>
 	</div>
 
-	<div id="footer">
-		<ul>
-			<p>Điện thoại liên hệ:...............</p>
-			<p>Gmail:................................</p>
-		</ul>
-	</div>
+	<?php include('footer.php') ?>
 	
 
 </body>
