@@ -11,15 +11,15 @@
 	<form action="" method="post">
 		<div id="dulieu">
 			<h2>Quản Lí Bài Đăng</h2>
-			<input id="place" type="text" name="txttenbang" placeholder="Tên Bảng :thanhvien,tintuc,khoahoc,thitruong,congcu,nongdan"><br>
-			<input id="place" type="text" name="txtidbaidang" placeholder="ID Bài Đăng"><br>
-			<input id="place" type="text" name="txttenbai" placeholder="Tên Bài Đăng"><br>
-			<input id="place" type="text" name="txtnoidung" placeholder="Nội Dung"><br>
-			<input id="place" type="text" name="txtanh" placeholder="Ảnh"><br>
-			<input id="place" type="text" name="txtidnguoidang" placeholder="ID Người Đăng Bài">
-			<input id="nut" type="submit" name="btnthem" value="Thêm">
-			<input id="nut" type="submit" name="btnsua" value="Sửa">
-			<input id="nut" type="submit" name="btnxoa" value="Xóa">
+				<input id="place" type="text" name="txttenbang" placeholder="Tên Bảng :thanhvien,tintuc,khoahoc,thitruong,congcu,nongdan"><br>
+				<input id="place" type="text" name="txtidbaidang" placeholder="ID Bài Đăng"><br>
+				<input id="place" type="text" name="txttenbai" placeholder="Tên Bài Đăng"><br>
+				<input id="place" type="text" name="txtnoidung" placeholder="Nội Dung"><br>
+				<input id="place" type="text" name="txtanh" placeholder="Ảnh"><br>
+				<input id="place" type="text" name="txtidnguoidang" placeholder="ID Người Đăng Bài">
+				<input id="nut" type="submit" name="btnthem" value="Thêm">
+				<input id="nut" type="submit" name="btnsua" value="Sửa">
+				<input id="nut" type="submit" name="btnxoa" value="Xóa">
 		</div>
 		<?php include('footer.php') ?>
 	</form>
