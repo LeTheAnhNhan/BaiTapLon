@@ -11,6 +11,7 @@
 	<form action="" method="post">
 		<div id="dulieu">
 			<h2>Quản Lí Bài Đăng</h2>
+			<input id="place" type="text" name="txttenbang" placeholder="Tên Bảng :thanhvien,tintuc,khoahoc,thitruong,congcu,nongdan"><br>
 			<input id="place" type="text" name="txtidbaidang" placeholder="ID Bài Đăng"><br>
 			<input id="place" type="text" name="txttenbai" placeholder="Tên Bài Đăng"><br>
 			<input id="place" type="text" name="txtnoidung" placeholder="Nội Dung"><br>
