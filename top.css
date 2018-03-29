@@ -6,6 +6,7 @@
 /* Thuộc tính chung của phần body web */
 body
 {
+
 	width: 100%;
 	margin: 0px auto;
 }
@@ -15,7 +16,7 @@ body
 	width: 100%;
 	margin: auto;
 	height:50px;
-	background-color: blue; 
+	background-color: blue;
 }
 /* Thuộc tính của thẻ ul trong phần top */
 #top ul
@@ -110,4 +111,8 @@ body
 	display: inline-block;
 	margin: 0px auto;
 	outline-style: none;
+}
+#dz
+{
+	float: right;
 }

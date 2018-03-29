@@ -10,7 +10,6 @@
 	<?php session_start(); ?>
 	<?php if(isset($_POST["btndangxuat"])) 
 		unset($_SESSION["txtuser"]);
-		// header('Location:trangchu.php');
 	?>
 	<div id="top">
 		<ul class="mn" style="vertical-align: middle;">
@@ -20,13 +19,20 @@
 				<form method="POST"><button name="btndangxuat" style="height: 50px; float: right;">Đăng xuất</button></form>
 				<?php }else{ ?>
 				<a href="dangnhap.php">Đăng Nhập</a>
+<<<<<<< HEAD
 				<a href="#">Đăng Ký</a>
+=======
+				<a href="dangky.php">Đăng Ký</a>
+				<a href="#">Liên Hệ</a>
+				<a href="#">Giới Thiệu</a>
+>>>>>>> e5f6205998c5273ec96aa7344d7e695d370d96da
 				<?php } ?>
 			</div>
 			<a href="#">Liên Hệ</a>
 			<a href="#">Giới Thiệu</a>
 		</ul>
 	</div>
+
 	<div id="header"><img src="image/1.JPG" alt="" style="margin: 0px auto;"></div>
 
 	<div id="menu">
@@ -35,14 +41,37 @@
 				<li><a href="tintuc.php">Tin Tức</a></li>
 				<li><a href="thitruong.php">Thị Trường</a></li>
 				<li><a href="tailieu.php">Tài Liệu</a></li>
-				<li><a href="maymoc.php">Công cụ</a></li>	
+				<li><a href="maymoc.php">Công cụ</a></li>
+				<li><a href="quanli.php">Quản lí bài đăng</a></li>
 		</ul><div class="container" style="width: 40%;display: inline-block;vertical-align: top;line-height: 48px;">
-				<span class="icon"><i class="search" ></i></span>
-				<input type="search" id="search" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
+			<form action="" method="post">
+				<input type="text" id="search" name="txtsearch" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
 				<div id="iconsearch">
-					<i class="fa fa-search" style="padding: 15px 15px;" ></i>
+					 <input type="submit" name="btnsearch" value="search" />
+					<!--<button type="summit" name="search" style="background-color: blue;"><i class="fa fa-search" style="padding: 15px 15px;" ></i></button>-->
 				</div>
+			</form>
 		</div>
 	</div>
+	<?php
+		include('connect.php');
+		//thêm chức năng search
+		if (isset($_POST['btnsearch']))
+		{	
+			$sql = "SELECT noidung FROM `baidang` WHERE tenbaidang LIKE '%".$_POST['txtsearch']."%'";
+			$result = mysqli_query($link,$sql);
+			if($_POST['txtsearch'] == Null)
+			{
+				echo 'Bạn cần nhập nội dung!';
+			}
+			else if(mysqli_num_rows($result)>0)
+			{
+				echo 'có bản ghi';
+			}
+			else
+				echo 'không có!';
+		}
+		mysqli_close($link);
+	?>
 </body>
 </html>

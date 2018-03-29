@@ -10,6 +10,7 @@
 
 	<?php include('slide.php') ?>
 
+
 	<div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;background-image:'background.jpg';" >
 		<div id="content1">
 			<h2><a href="#">Tin Tức Chung</a></h2><br>
@@ -60,7 +61,8 @@
 		</div><div id="diendan">
 			<a href="http://nhanongviet.vn/dien-dan-nong-nghiep/" target="_blank"><img src="image/4.jpg" alt="leaf"></a>
 			<ul>
-				<li><a href="http://nhanongviet.vn/dien-dan-nong-nghiep/" target="_blank">Kênh Diễn Đàn Của Người Nông Dân</a></li>
+				<iframe src="https://agriviet.com/f/" width="100%" height="100%" ></iframe>
+				<!--<li><a href="http://nhanongviet.vn/dien-dan-nong-nghiep/" target="_blank">Kênh Diễn Đàn Của Người Nông Dân</a></li>-->
 			</ul>
 		</div>
 	</div>
