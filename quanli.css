@@ -1,3 +1,4 @@
+/* Thộc tính chung cho thẻ dữ liệu */
 #dulieu
 {
 	width: 60%;
@@ -6,10 +7,12 @@
 	background: linear-gradient(lightgreen,lightyellow);
 	text-align: center;
 }
+/* Thuộc tính của thẻ h2 trong thẻ dulieu */
 h2
 {
 	text-align: center;
 }
+/* Thuộc tính của các ô nhập thông tin trong thẻ dulieu */
 #place
 {
 	margin: 40px auto;
@@ -23,7 +26,7 @@ h2
 	background-size: 200px 100%;
 	background-repeat: no-repeat;
 }
-
+/* Thuộc tính của các nút nhấn */
 #nut
 {
 	border: none;
