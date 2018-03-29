@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trang Chủ</title>
-	<link rel="stylesheet" type="text/css" href="tc.css">
+	<link rel="stylesheet" type="text/css" href="trangchu.css">
 	<script src="script.js"></script>
 </head>
 <body>
@@ -73,10 +73,18 @@
 		<div id="content3">
 			<ul>
 				<h2><a href="#">Nông Dân Làm Giàu</a></li></h2>
-				<li><a href="#">Thành tỉ phú nhờ nuôi ong</a></li>
-				<li><a href="#">Lãi khủng từ nuôi cá rô phi</a></li>
-				<li><a href="#">Thu trên 200 triệu đồng/năm nhờ trồng nấm</a></li>
-				<li><a href="#">Thu tiền tỷ mỗi năm từ trang trại trồng dưa</a></li>
+				<div id="width2">
+					<a href="#"><img src="image/ong.jpg" alt="" width="100%" height="150px" ></a><br>
+					<a href="#">Thành tỉ phú nhờ nuôi ong</a>
+				</div>
+				<div id="width2">
+					<a href="#"><img src="image/caro.jpg"  alt="" height="150px" width="100%" ></a><br>
+					<a href="#">Lãi khủng nhờ nuôi cá rô phi</a>
+				</div>
+				<div id="width2">
+					<a href="#"><img src="image/nam.jpg" alt="" height="150px" width="100%"></a><br>
+					<a href="#">Thu trên 200 triệu mỗi năm nhờ trồng nấm</a>
+				</div>
 			</ul>
 		</div><div id="weather">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7448.779271904347!2d105.8134888864834!3d21.017090181054712!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1521811469005" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
