@@ -21,6 +21,7 @@
 			<input id="nut" type="submit" name="btnsua" value="Sửa">
 			<input id="nut" type="submit" name="btnxoa" value="Xóa">
 		</div>
+		<?php include('footer.php') ?>
 	</form>
 	<?php 
 		include('connect.php');
