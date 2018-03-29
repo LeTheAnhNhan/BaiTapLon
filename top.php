@@ -19,17 +19,9 @@
 				<form method="POST"><button name="btndangxuat" style="height: 50px; float: right;">Đăng xuất</button></form>
 				<?php }else{ ?>
 				<a href="dangnhap.php">Đăng Nhập</a>
-<<<<<<< HEAD
-				<a href="#">Đăng Ký</a>
-=======
 				<a href="dangky.php">Đăng Ký</a>
-				<a href="#">Liên Hệ</a>
-				<a href="#">Giới Thiệu</a>
->>>>>>> e5f6205998c5273ec96aa7344d7e695d370d96da
 				<?php } ?>
 			</div>
-			<a href="#">Liên Hệ</a>
-			<a href="#">Giới Thiệu</a>
 		</ul>
 	</div>
 
@@ -38,9 +30,7 @@
 	<div id="menu">
 		<ul class="mn" style="width: 60%;display: inline-block;vertical-align: top">
 			<li><a href="trangchu.php">Trang Chủ</a></li>
-				<li><a href="tintuc.php">Tin Tức</a></li>
 				<li><a href="thitruong.php">Thị Trường</a></li>
-				<li><a href="tailieu.php">Tài Liệu</a></li>
 				<li><a href="maymoc.php">Công cụ</a></li>
 				<li><a href="quanli.php">Quản lí bài đăng</a></li>
 		</ul><div class="container" style="width: 40%;display: inline-block;vertical-align: top;line-height: 48px;">
