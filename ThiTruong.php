@@ -16,34 +16,17 @@
 		</div>
 		<hr>
 		<div class="list-img">
-			<div class="content1">
-				<img class="imgcontent" src="image/thitbo1.jpg" alt="">
-				<div class="bottom1">Thịt bò nhập giá bèo tràn ngập thị trường</div>
-			</div><div class="content1">
-				<img class="imgcontent" src="image/thitruong2.jpg" alt="">
-				<div class="bottom1">Thịt gà giả làm loạn giá chung</div>
-			</div><div class="content1">
-				<img class="imgcontent" src="image/thitruong3.jpg" alt="">
-				<div class="bottom1">Thịt gà giả làm loạn giá chung</div>
-			</div><div class="content1">
-				<img class="imgcontent" src="image/thitruong4.jpg" alt="">
-				<div class="bottom1">Thịt gà giả làm loạn giá chung</div>
-			</div>
-		</div>
-		<div class="list-img">
-			<div class="content1">
-				<img class="imgcontent" src="image/thitruong5.jpg" alt="">
-				<div class="bottom1">Thịt gà giả làm loạn giá chung</div>
-			</div><div class="content1">
-				<img class="imgcontent" src="image/thitruong6.jpg" alt="">
-				<div class="bottom1">Thịt gà giả làm loạn giá chung</div>
-			</div><div class="content1">
-				<img class="imgcontent" src="image/thitruong7.jpg" alt="">
-				<div class="bottom1">Thịt gà giả làm loạn giá chung</div>
-			</div><div class="content1">
-				<img class="imgcontent" src="image/thitruong1.jpg" alt="">
-				<div class="bottom1">Thịt gà giả làm loạn giá chung</div>
-			</div>
+			<?php
+				$link = mysqli_connect("localhost","root","","btl-cnweb");
+				mysqli_set_charset($link,"UTF8");
+				$query =  mysqli_query($link,"select * from thitruong");
+				while($row = mysqli_fetch_array($query)){ ?>
+				    <div class="content1">
+						<?php echo'<img class="imgcontent" src="'.$row['anh'].'" alt="">'?>
+						<?php echo'<div class="bottom1">"'.$row['tenbaidang'].'"</div>' ?>
+					</div>
+				<?php } 
+			?>		
 		</div>
 
 		<div class="list-price">

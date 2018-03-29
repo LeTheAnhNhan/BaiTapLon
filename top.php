@@ -15,11 +15,11 @@
 		<ul class="mn" style="vertical-align: middle;">
 			<div id="dx" >
 				<?php if(isset($_SESSION['txtuser'])) {?>
-				<p style="float:left;">Xin chao - <?php echo $_SESSION['txtuser'] ?></p>
-				<form method="POST"><button name="btndangxuat" style="height: 50px; float: right;">Đăng xuất</button></form>
-				<?php }else{ ?>
-				<a href="dangnhap.php">Đăng Nhập</a>
-				<a href="dangky.php">Đăng Ký</a>
+					<p style="float:left;">Xin chao - <?php echo $_SESSION['txtuser'] ?></p>
+					<form method="POST"><button name="btndangxuat" style="height: 50px; float: right;">Đăng xuất</button></form>
+					<?php }else{ ?>
+						<a href="dangnhap.php">Đăng Nhập</a>
+						<a href="dangky.php">Đăng Ký</a>
 				<?php } ?>
 			</div>
 		</ul>
@@ -29,10 +29,22 @@
 
 	<div id="menu">
 		<ul class="mn" style="width: 60%;display: inline-block;vertical-align: top">
-			<li><a href="trangchu.php">Trang Chủ</a></li>
-				<li><a href="thitruong.php">Thị Trường</a></li>
-				<li><a href="maymoc.php">Công cụ</a></li>
-				<li><a href="quanli.php">Quản lí bài đăng</a></li>
+			<?php if(isset($_SESSION['txtuser'])) {?>
+				<form method="POST">
+					<li><a href="trangchu.php">Trang Chủ</a></li>
+					<li><a href="thitruong.php">Thị Trường</a></li>
+					<li><a href="maymoc.php">Công cụ</a></li>
+					<li><a href="quanli.php">Quản lí bài đăng</a></li>
+				</form>	
+				<?php }else{ ?>
+					<li><a href="trangchu.php">Trang Chủ</a></li>
+					<li><a href="thitruong.php">Thị Trường</a></li>
+					<li><a href="maymoc.php">Công cụ</a></li>
+			<?php } ?>
+			<!-- <li><a href="trangchu.php">Trang Chủ</a></li>
+			<li><a href="thitruong.php">Thị Trường</a></li>
+			<li><a href="maymoc.php">Công cụ</a></li>
+			<li><a href="quanli.php">Quản lí bài đăng</a></li> -->
 		</ul><div class="container" style="width: 40%;display: inline-block;vertical-align: top;line-height: 48px;">
 			<form action="" method="post">
 				<input type="text" id="search" name="txtsearch" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
