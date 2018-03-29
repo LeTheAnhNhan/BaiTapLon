@@ -18,28 +18,29 @@ a
 /* Thuộc tính của thẻ content1 */
 .content1
 {
-	width: 25%;
+	width: 24.7%;
 	height: 250px;
 	position: relative;
-	border: 10px solid white;
 	box-sizing: border-box;
 	background: white;
 	display: inline-block;
 	box-sizing: border-box;
 	vertical-align: top;
+	border-bottom: 10px solid white;
+	border-right: 5px solid white;
 }
 /* Thuộc tính của ảnh nằm trong content */
 .imgcontent
 {
 	width: 100%;
 	height: 100%;
+	vertical-align: top;
 }
 /* Thuộc tính của ảnh nằm trong content */
 .list-img
 {
 	width: 90%;
 	margin:0px auto;
-	height: 40vh
 }
 /* Thuộc tính của các thẻ bottom1 */
 .bottom1
