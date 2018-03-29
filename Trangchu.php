@@ -22,7 +22,7 @@
 					while($row = mysqli_fetch_array($query)){?>
 					    <div id="width1">
 							<?php echo '<a href="#"><img src="'.$row['anh'].'" alt="" width="100%" height="150px"></a>' ?>
-							<?php echo $row["tenbaidang"]?>
+							<?php echo '<a href="#">"'.$row["tenbaidang"].'"</a>'?>	
 						</div>
 					<?php }
 				?>
@@ -50,7 +50,7 @@
 					while($row = mysqli_fetch_array($query)){?>
 					    <div id="width2">
 							<?php echo '<a href="#"><img src="'.$row['anh'].'" alt="" width="100%" height="150px"></a>' ?>
-							<?php echo $row["tenbaidang"]?>
+							<?php echo '<a href="#">"'.$row["tenbaidang"].'"</a>'?>
 						</div>
 					<?php }
 				?>
@@ -77,7 +77,7 @@
 					while($row = mysqli_fetch_array($query)){?>
 					    <div id="width2">
 							<?php echo '<a href="#"><img src="'.$row['anh'].'" alt="" width="100%" height="150px"></a>' ?>
-							<?php echo $row["tenbaidang"]?>
+							<?php echo '<a href="#">"'.$row["tenbaidang"].'"</a>'?>
 						</div>
 					<?php }
 				?>
