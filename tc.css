@@ -78,12 +78,14 @@ a
 {
 	line-height:50px;
 }
+/* Thuộc tính của thẻ ul nằm trong thẻ menu */
 #menu ul
 {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;  
 }
+/* Thuộc tính của thẻ a nằm trong thẻ menu */
 #menu ul a
 {
 	float: left;
@@ -126,13 +128,14 @@ a
 	background-image: url('../BaiTapLon/image/bg.jpg');
 	text-decoration-color: white;
 }
+/* Thuộc tính của thẻ ul nằm trong content1 */
 #content1 ul
 {
 	margin: auto;
 	padding-left: 10px;
 	list-style-type: none;
 }
-
+/* Thuộc tính của thẻ a nằm trong content1 */
 #content1 ul a
 {
 	margin: 10px;
@@ -142,7 +145,7 @@ a
 	display: block;
 	text-align: left;
 }
-/* Thuộc tính thẻ content1 */
+/* Thuộc tính thẻ content2 */
 #content2
 {
 	margin: auto;
@@ -157,11 +160,13 @@ a
 	text-decoration-color: white;
 	vertical-align: top;
 }
+/* Thuộc tính của thẻ ul nằm trong content1 */
 #content2 ul
 {
 	margin: auto;
 	padding-left: 10px;
 }
+/* Thuộc tính của thẻ a nằm trong content1 */
 #content2 ul a
 {
 	margin: 10px;
@@ -171,7 +176,7 @@ a
 	display: block;
 	text-align: left;
 }
-/* Thuộc tính thẻ content1 */
+/* Thuộc tính thẻ content3 */
 #content3
 {
 	margin: auto;
@@ -185,6 +190,7 @@ a
 	background-image: url('../BaiTapLon/image/bg.jpg');
 	text-decoration-color: white;
 }
+/* Thuộc tính của thẻ ul nằm trong content1 */
 #content3 ul
 {
 	margin: auto;
@@ -195,6 +201,7 @@ a
 	text-align: left;
 	list-style-type: none;
 }
+/* Thuộc tính của thẻ a nằm trong content1 */
 #content3 ul a
 {
 	margin: auto;

@@ -1,11 +1,14 @@
+/* Thuộc tính chung của phần body web */
 body
 {
 	background: #eee;
 }
+/* Thuộc tính của thẻ tiêu đề */
 h2
 {
 	text-align: center;
 }
+/* thuộc tính của form để điền thông tin */
 #frm
 {
 	border: solid gray 1px;
@@ -23,6 +26,7 @@ h2
 	padding: 5px;
 	margin-left: 69%;
 }
+/* Thuộc tính của các ô nhập  */
 #a
 {
 	margin: 40px 25px;
@@ -37,7 +41,7 @@ h2
 	background-size: 200px 100%;
 	background-repeat: no-repeat;
 }
-
+/* Thuộc tính của nút đăng nhập */
 #b
 {
 	border: none;
@@ -50,6 +54,7 @@ h2
 	margin-left: 25px;
 	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
 }
+/* Thuộc tính hiệu ứng khi click chuột vào nút đăng nhập */
 button:hover 
 {
   transform: translateY(-3px);

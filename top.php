@@ -14,17 +14,17 @@
 	?>
 	<div id="top">
 		<ul class="mn" style="vertical-align: middle;">
-			<div id="dx">
+			<div id="dx" >
 				<?php if(isset($_SESSION['txtuser'])) {?>
-				<p style="float:right;">Xin chao - <?php echo $_SESSION['txtuser'] ?></p>
-				<form method="POST"><button name="btndangxuat" style="display: inline-block;">Đăng xuất</button></form>
+				<p style="float:left;">Xin chao - <?php echo $_SESSION['txtuser'] ?></p>
+				<form method="POST"><button name="btndangxuat" style="height: 50px; float: right;">Đăng xuất</button></form>
 				<?php }else{ ?>
 				<a href="dangnhap.php">Đăng Nhập</a>
 				<a href="#">Đăng Ký</a>
-				<a href="#">Liên Hệ</a>
-				<a href="#">Giới Thiệu</a>
 				<?php } ?>
 			</div>
+			<a href="#">Liên Hệ</a>
+			<a href="#">Giới Thiệu</a>
 		</ul>
 	</div>
 	<div id="header"><img src="image/1.JPG" alt="" style="margin: 0px auto;"></div>

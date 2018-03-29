@@ -3,6 +3,7 @@
 	padding : 0px;
 	margin : 0px;
 }
+/* Thuộc tính chung của phần body */
 body
 {
 	width: 100%;
@@ -12,6 +13,7 @@ a
 {
 	text-decoration: none;
 }
+/* Thuộc tính của thẻ content1 */
 .content1
 {
 	width: 100%;
@@ -20,6 +22,7 @@ a
 	margin-top: 3px;
 	position: relative;
 }
+/* Thuôc tính của thẻ content11 */
 .content11
 {
 	width: 30%;
@@ -31,6 +34,7 @@ a
 	padding-left: 40px;
 	border-right: 2px solid gray;
 }
+/* Thuôc tính của thẻ content12 */
 .content12
 {
 	box-sizing: border-box;
@@ -44,6 +48,7 @@ a
 	border-right: 2px solid gray;
 	position: absolute;
 }
+/* Thuôc tính của thẻ content13 */
 .content13
 {
 	width:90%;
@@ -54,6 +59,7 @@ a
 	box-sizing: border-box;
 
 }
+/* Thuôc tính của thẻ content14 */
 .content14
 {
 	width: 30%;
@@ -64,6 +70,7 @@ a
 	padding-left: 5px;
 	box-sizing: border-box;
 }
+/* Thuôc tính của thẻ text */
 .text
 {
 	margin-top: 20px;
@@ -73,17 +80,20 @@ a
 	color: black;
 	text-align: center;
 }
+/* Thuôc tính của ảnh trong content13 */
 .imgcontent13
 {
 	float: left;
 	width: 30%;
 	height: 100%;
 }
+/* Thuôc tính của ảnh trong content1 */
 .imgcontent1
 {
 	width: 90%;
 	height: 90%;
 }
+/* Thuộc tính của thẻ bottom */
 .bottom
 {
 	position: absolute;
@@ -92,12 +102,14 @@ a
 	font-size: 60px;
 	color: white;
 }
+/* Thuôc tính của thẻ content2 */
 .content2
 {
 	width: 100%;
 	height: 300px;
  	margin-top: 3px;
 }
+/* Thuôc tính của thẻ content21 */
 .content21
 {
 	width: 30%;
@@ -109,11 +121,13 @@ a
 	padding-left: 40px;
 	border-right: 2px solid gray;
 }
+/* Thuôc tính của ảnh trong content2 */
 .imgcontent2
 {
 	width: 90%;
 	height: 90%;
 }
+/* Thuộc tính của thẻ content22 */
 .content22
 {
 	box-sizing: border-box;
@@ -127,6 +141,7 @@ a
 	position: absolute;
 	border-right: 2px solid gray;
 }
+/* Thuộc tính của thẻ content23 */
 .content23
 {
 	width: 30%;

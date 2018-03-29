@@ -1,3 +1,4 @@
+/* Thuộc tính chung của thẻ footer */
 #footer	
 {
 	margin: auto;
@@ -9,6 +10,7 @@
 	border-width: 2px;
 	box-sizing: border-box;
 }
+/* Thuộc tính chung của thẻ ul nằm trong thẻ footer */
 #footer ul
 {
 	margin: auto;
