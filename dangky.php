@@ -13,7 +13,6 @@
 			else{
 				if($query){
 					echo "Đăng ký tài khoản $name thành công";
-					header("location:dangnhap.php");
 				}
 				else{
 					echo "Không thành công";
