@@ -6,9 +6,9 @@
 	<script src="script.js"></script>
 </head>
 <body>
-	<?php include('top.php') ?>
+	<?php include('../Code/top.php') ?>
 
-	<?php include('slide.php') ?>
+	<?php include('../Code/slide.php') ?>
 
 
 	<div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;" >
@@ -88,6 +88,6 @@
 		</div>
 	</div>
 
-	<?php include('footer.php') ?>
+	<?php include('../Code/footer.php') ?>
 </body>
 </html>

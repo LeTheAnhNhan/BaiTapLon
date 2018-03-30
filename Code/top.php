@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>top</title>
+	<title>Bài Viết</title>
 	<link rel="stylesheet" href="top.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -45,18 +45,10 @@
 			<li><a href="thitruong.php">Thị Trường</a></li>
 			<li><a href="maymoc.php">Công cụ</a></li>
 			<li><a href="quanli.php">Quản lí bài đăng</a></li> -->
-		</ul><div class="container" style="width: 40%;display: inline-block;vertical-align: top;line-height: 48px;">
-			<form action="" method="post">
-				<input type="text" id="search" name="txtsearch" placeholder="Nhập Từ Khóa Để Tìm Kiếm....">
-				<div id="iconsearch">
-					 <input type="submit" name="btnsearch" value="search" />
-					<!--<button type="summit" name="search" style="background-color: blue;"><i class="fa fa-search" style="padding: 15px 15px;" ></i></button>-->
-				</div>
-			</form>
-		</div>
+		</ul>
 	</div>
 	<?php
-		include('connect.php');
+		include('../Code/connect.php');
 		//thêm chức năng search
 		if (isset($_POST['btnsearch']))
 		{	
