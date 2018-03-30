@@ -21,8 +21,8 @@
 					$query =  mysqli_query($link,"select * from tintuc");
 					while($row = mysqli_fetch_array($query)){?>
 					    <div id="width1">
-							<?php echo '<a href="#"><img src="'.$row['anh'].'" alt="" width="100%" height="150px"></a>' ?>
-							<?php echo '<a href="#">"'.$row["tenbaidang"].'"</a>'?>	
+							<?php echo '<a href="TinTucChung.php?xembaiviet='.$row['idbaidang'].'"><img src="'.$row['anh'].'" alt="" width="100%" height="150px"></a>' ?>
+							<?php echo $row["tenbaidang"]?>
 						</div>
 					<?php }
 				?>
@@ -49,8 +49,8 @@
 					$query =  mysqli_query($link,"select * from khoahoc");
 					while($row = mysqli_fetch_array($query)){?>
 					    <div id="width2">
-							<?php echo '<a href="#"><img src="'.$row['anh'].'" alt="" width="100%" height="150px"></a>' ?>
-							<?php echo '<a href="#">"'.$row["tenbaidang"].'"</a>'?>
+							<?php echo '<a href="khoahoccongnghe.php?xembaiviet='.$row['idbaidang'].'"><img src="'.$row['anh'].'" alt="" width="100%" height="150px"></a>' ?>
+							<?php echo $row["tenbaidang"]?>
 						</div>
 					<?php }
 				?>
@@ -76,8 +76,8 @@
 					$query =  mysqli_query($link,"select * from nongdan");
 					while($row = mysqli_fetch_array($query)){?>
 					    <div id="width2">
-							<?php echo '<a href="#"><img src="'.$row['anh'].'" alt="" width="100%" height="150px"></a>' ?>
-							<?php echo '<a href="#">"'.$row["tenbaidang"].'"</a>'?>
+							<?php echo '<a href="Nongdanlamgiau.php"><img src="'.$row['anh'].'" alt="" width="100%" height="150px"></a>' ?>
+							<?php echo $row["tenbaidang"]?>
 						</div>
 					<?php }
 				?>
