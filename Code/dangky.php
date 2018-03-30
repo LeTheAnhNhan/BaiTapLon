@@ -4,6 +4,7 @@
 		if(isset($_POST['btndangky'])){
 			$name=mysqli_real_escape_string($link,$_POST['txtuser']);
 			$password=mysqli_real_escape_string($link,$_POST['txtpass']);
+			$password=md5($password);
 			$hoten=mysqli_real_escape_string($link,$_POST['hoten']);
 			$sql=" INSERT INTO thanhvien(hoten,tendangnhap,matkhau) VALUES('$hoten','$name','$password')";
 			$query= mysqli_query($link,$sql);

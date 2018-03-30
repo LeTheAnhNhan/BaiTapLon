@@ -18,8 +18,12 @@
 		session_start();
 		if(isset($_POST['btndangnhap']))
 		{
-			$sql ="select tendangnhap,matkhau from thanhvien where tendangnhap ='".$_POST['txtuser']."' and matkhau='".$_POST['txtpass']."'";
+			$name=mysqli_real_escape_string($link,$_POST['txtuser']);
+			$password=mysqli_real_escape_string($link,$_POST['txtpass']);
+			$password=md5($password);
+			$sql ="SELECT * FROM `thanhvien` where `tendangnhap` = '$name' and `matkhau` = '$password'";
 			$result = mysqli_query($link,$sql);
+			$num_row = mysqli_num_rows($result);
 			if($_POST['txtuser'] == Null or $_POST['txtpass']==Null)
 			{
 				echo 'Bạn cần nhập tên đăng nhập và mật khẩu!';
