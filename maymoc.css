@@ -3,7 +3,7 @@
 	padding : 0px;
 	margin : 0px;
 }
-/* Thuộc tính chung của phần body */
+/* Thuoc tinh chung cua phan body*/
 body
 {
 	width: 100%;
@@ -14,147 +14,108 @@ a
 {
 	text-decoration: none;
 }
-/* Thuộc tính của thẻ top */
-#top
+
+/* Thuộc tính của thẻ content1 */
+.content1
 {
-	width: 100%;
-	margin: auto;
-	height:50px;
-	background-color: blue; 
-}
-/* Thuộc tính của thẻ ul nằm trong thẻ top */
-#top ul
-{
-	padding: 0px;
-	list-style: none;
-}
-/* Thuộc tính của thẻ a nằm trong thẻ top */
-#top ul a
-{
-	float: right;
-	text-decoration: none;
-	color: white;
-	display: block;
-	line-height: 50px; 
-	padding: 0px 30px 0px;
-	text-align: center;	
-}
-/* Thuộc tính tạo hiệu ứng đổi màu khi click chuột */
-#top ul a:hover
-{
-	background-color: #FF3333;
-	transition: all 1s ease-in-out;
-}
-/* Thuộc tính thẻ container */
-.container
-{
+	width: 24.7%;
+	height: 250px;
 	position: relative;
-	z-index: 10;
-}
-/* Thuộc tính của biểu tượng có trong thẻ container */
-#iconsearch
-{
-	background-color: blue;
-	position: absolute;
-	right: 110px;
-	top: 0;
-	color: white;
-}
-/* Thuộc tính của thẻ header */
-#header
-{
-	height: 180px;
-	width: 100%;
-	text-align: center;
-	display: block;
-	margin:  0 auto;
-}
-/* * Thuộc tính của thẻ menu */ 
-#menu
-{
-	background-color: blue;
-}
-.mn
-{
-	line-height:50px;
-}
-/* Thuộc tính của thẻ ul nằm trong thẻ menu */
-#menu ul
-{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;  
-}
-/* Thuộc tính của thẻ a nằm trong thẻ menu */
-#menu ul a
-{
-	float: left;
-	text-decoration: none;
-	color: white;
-	display: block;
-	padding: 0px 30px 0px 30px;
-	text-align: center;
-}
-/* Tạo hiệu ứng đổi màu khi chuột chỉ đến */
-#menu ul a:hover
-{
-	background-color: #FF0033;
-	transition: all 1s ease-in-out;
-
-}
-.mennubar
-{
-	border-right:  1px solid white; 
-}
-/* Thộc tính của thẻ slider chứa slide ảnh */
-#slider
-{
-	margin: 0px auto;
-	background: url('image/2.jpg') no-repeat;
-	width: : 100%;
-	height: 175px;
-	margin: auto;
-
-}
-/* Thuộc tính cảu thẻ search */
-#search
-{
-	height: 30px;
-	width: 70%;
-	background-color: white;
-	border: none;
+	background: white;
 	display: inline-block;
-	margin: 0px auto;
-	outline-style: none;
-}
-/* Thuộc tính của icon hình kính lúp */
-#iconsearch
-{
-	background-color: blue;
-	position: absolute;
-	right: 110px;
-	top: 0;
-	color: white;
-}
-/* Thuộc tính của các thẻ máy móc */
-.maymoc
-{
-	width: 25%;
 	box-sizing: border-box;
-	padding: 10px 10px 10px 10px;
-	text-align: center;
+	vertical-align: top;
+	border-bottom: 10px solid white;
+	border-right: 5px solid white;
+}
+.a1
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
 	display: inline-block;
+	box-sizing: border-box;
 	vertical-align: top;
 }
-/* Thuộc tính cảu các thẻ b */
-.b
+/* Thuộc tính của ảnh nằm trong content */
+.imgcontent
 {
 	width: 100%;
-	height: 60%;
+	height: 100%;
 }
-/* Thuộc tính của thẻ hotrotrongchot */
-.hotrotrongtrot
+/* Thuộc tính của ảnh nằm trong content */
+.list-img
 {
-	border-bottom-style: groove;
-	border-width: 1px;
+	width: 90%;
+	margin:0px auto;
 }
+/* Thuộc tính của các thẻ bottom1 */
+.bottom1
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 18px;
+	width: 100%;
+	height: 20%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5)
+}
+/* Thuộc tính của thẻ list-price */
+.list-price
+{
+	width: 90%;
+	height: 300px;
+	box-sizing: border-box;
+	margin: 0px auto;
+	padding: 10px 10px;
+}
+/* Thuộc tính của thẻ list-price1 */
+.list-price1
+{
+	position: relative;
+	width: 40%;
+	height: 280px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	display: inline-block;
+}
+/* Thuộc tính của thẻ title */
+.title1
+{
+	width: 19.2%;
+	height: 280px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	position: relative;
+}
+/* Thuộc tính của ảnh trong thẻ title */
+.imgtitle
+{
+	width: 100%;
+	height: 100%;
+}
+/* Thuộc tính của thẻ list-price2 */
+.list-price2
+{
+	position: relative;
+	width: 40%;
+	height: 280px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	display: inline-block;
+}
+/* Thuộc tính của các thẻ bottom2 */
+.bottom2
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 30px;
+	width: 100%;
+	height: 20%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5)
+}
+
