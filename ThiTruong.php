@@ -19,12 +19,12 @@
 			<?php
 				$link = mysqli_connect("localhost","root","","btl-cnweb");
 				mysqli_set_charset($link,"UTF8");
-				$query =  mysqli_query($link,"select * from thitruong");
+				$query = mysqli_query($link,"select * from thitruong");
 				while($row = mysqli_fetch_array($query)){ ?>
-				    <div class="content1">
-						<?php echo'<img class="imgcontent" src="'.$row['anh'].'" alt="">'?>
+					<div class="content1">
+						<?php echo'<a href="chitiet.php?idbaidang='.$row['idbaidang'].'"><img class="imgcontent" src="'.$row['anh'].'" alt=""></a>'?>
 						<?php echo'<div class="bottom1">"'.$row['tenbaidang'].'"</div>' ?>
-					</div>
+					</div>	
 				<?php } 
 			?>		
 		</div>

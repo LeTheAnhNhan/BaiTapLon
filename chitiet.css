@@ -1,0 +1,47 @@
+*
+{
+	padding : 0px;
+	margin : 0px;
+}
+/* Thuoc tinh chung cua phan body*/
+body
+{
+	width: 100%;
+	margin: 0px auto;
+}
+
+a
+{
+	text-decoration: none;
+}
+.content1
+{
+	margin: 0px auto;
+	position: relative;
+	width: 80%;
+	box-sizing: border-box;
+}
+.imgbaidang
+{
+	box-sizing: border-box;
+	width: 30%;
+	height: 240px;
+	border: 1px solid black;
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+}
+.imgbaidang img
+{
+	width: 100%;
+	height: 100%;
+}
+.noidung
+{
+	box-sizing: border-box;
+	vertical-align: top;
+	width: 69%;
+	border: 1px solid black;
+	display: inline-block;
+	position: relative;
+}
