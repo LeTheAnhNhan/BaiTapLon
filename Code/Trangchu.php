@@ -28,11 +28,7 @@
 				?>
 			</div>
 		</div><div id="youtube">
-			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/b3IjDWYvwnw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			<!--<a href="https://www.youtube.com/user/cungnongdanlamgiau" target="_blank"><img src="image/youtube.jpg" alt="youtube">-->
-			<ul>
-				<li><a href="https://www.youtube.com/user/cungnongdanlamgiau" target="_blank">Kênh Youtube Chia Sẻ Kiến Thức</a></li>
-			</ul>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14898.798434684159!2d105.83218862661133!3d21.004675116172145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac8109765ba5%3A0xd84740ece05680ee!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBUaOG7p3kgTOG7o2k!5e0!3m2!1svi!2s!4v1522465203726" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</div>
 
@@ -57,13 +53,8 @@
 				
 			</div>
 		</div><div id="diendan">
-			<a href="http://nhanongviet.vn/dien-dan-nong-nghiep/" target="_blank"><img src="image/4.jpg" alt="leaf"></a>
-			<ul>
-				<iframe src="https://agriviet.com/f/" width="100%" height="100%" ></iframe>
-				<!--<li><a href="http://nhanongviet.vn/dien-dan-nong-nghiep/" target="_blank">Kênh Diễn Đàn Của Người Nông Dân</a></li>-->
-			</ul>
-		</div>
-	</div>
+				<iframe src="http://nhanongviet.vn/dien-dan-nong-nghiep/" width="100%" height="100%" name="the-iframe" frameborder="0"></iframe>
+			</div>
 
 
 

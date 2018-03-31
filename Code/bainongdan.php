@@ -9,6 +9,7 @@
 		$result = mysqli_fetch_array($sql);
 		include('top.php');
 		include('slide.php');
-		echo '<br><h1>'.$result['tenbaidang'].'</h1><br>'.$result['noidung'].'<br><div style="text-align:center;"><img src="'.$result['anh'].'"></div>';	
+		echo '<br><h1>'.$result['tenbaidang'].'</h1><br>'.$result['noidung'].'<br><div style="text-align:center;"><img src="'.$result['anh'].'"></div>';
+		include('footer.php');	
 	}
 ?>

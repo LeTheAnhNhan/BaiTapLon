@@ -10,5 +10,6 @@
 		include('top.php');
 		include('slide.php');
 		echo '<h1>'.$result['tenbaidang'].'</h1><br>'.$result['noidung'].'<br><div style="text-align:center;"><img src="'.$result['anh'].'"></div>';	
+		include('footer.php');
 	}
 ?>

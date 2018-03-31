@@ -18,5 +18,6 @@
 	color: blue;
 	line-height: 30px;
 	display: block;
-	text-align: right;
+	text-align: left;
+	padding-left: 80%;
 }

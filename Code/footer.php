@@ -7,10 +7,10 @@
 </head>
 <body>
 	<div id="footer">
-		<ul>
-			<p>Điện thoại liên hệ:01234865123</p>
-			<p>Gmail:channuoitrongtrot@gmail.com</p>
-		</ul>
+			<ul>
+				<p>Điện thoại liên hệ:01234865123</p>
+				<p>Gmail:channuoitrongtrot@gmail.com</p>
+			</ul>
 	</div>
 </body>
 </html>
