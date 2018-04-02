@@ -8,6 +8,7 @@
 	<script src="jquery-3.3.1.min.js"></script>
 </head>
 <body>
+	<!--tạo thẻ div chứa slide-->
 	<div id="slider">
 		<img name="slide" width="100%" height="100%">
 	</div>
