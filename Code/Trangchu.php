@@ -10,7 +10,7 @@
 
 	<?php include('../Code/slide.php') ?>
 
-
+	<!-- tạo khung cho nội dung tin tức và link youtube hỗ trợ-->
 	<div class="tdn" style="border-bottom: groove; border-width: 5px;margin-top: 1px;" >
 		<div id="content1">
 			<h2><a href="#">Tin Tức Chung</a></h2><br>
@@ -34,7 +34,7 @@
 
 
 
-	
+	<!-- tạo khung cho nội dung khoa học công nghệ và diễn đàn-->
 	<div class="tdn" style="border-bottom: groove; border-width: 5px;">
 		<div id="content2">
 			<h2><a href="#">Khoa Học Công Nghệ</a></h2><br>
@@ -57,7 +57,7 @@
 			</div>
 
 
-
+	<!-- tạo khung cho nội dung nông dân làm giàu và map vị trí của nhóm-->
 	<div class="tdn" style="border-bottom: groove; border-width: 5px;">
 		<div id="content2">
 				<h2><a href="#">Nông Dân Làm Giàu</a></li></h2>

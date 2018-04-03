@@ -35,6 +35,7 @@
 	<link rel="stylesheet" href="dangky.css" type="text/css">
 </head>
 <body>
+	<!-- tạo form đăng kí-->
 	<form  action="" method="POST" id="frm">
 		<h2>Đăng ký</h2>
 		<input id="a" type="text" id="user" name="hoten" placeholder="Họ và tên">

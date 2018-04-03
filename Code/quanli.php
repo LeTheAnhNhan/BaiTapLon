@@ -8,6 +8,7 @@
 <body>
 	<?php include('top.php'); ?>
 	<?php include('slide.php') ?>
+	<!-- tạo form quản lí và các nút bấm,các trường trong cơ sở dữ liệu -->
 	<form action="" method="post">
 		<div id="dulieu">
 			<h2>Quản Lí Bài Đăng</h2>
@@ -24,6 +25,7 @@
 		<?php include('footer.php') ?>
 	</form>
 	<?php 
+		//thêm chuỗi kết nối
 		include('connect.php');
 		//thêm bài đăng
 		if(isset($_POST['btnthem']))

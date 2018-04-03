@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="dangnhap.css" type="text/css">
 </head>
 <body>
+	<!-- tạo form đăng nhập -->
 	<form  action="" method="post" id="frm">
 		<h2>Đăng nhập</h2>
 		<input id="a" type="text" id="user" name="txtuser" placeholder="Tên Đăng Nhập">
@@ -14,7 +15,7 @@
 	</form>
 	<?php
 		include("connect.php");
-		
+		//thêm chức năng của form đăng nhập khi bấm nút đăng nhập
 		session_start();
 		if(isset($_POST['btndangnhap']))
 		{

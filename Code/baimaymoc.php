@@ -1,15 +1,20 @@
 <?php 
-// lấy dữ liệu bài đăng trong bảng cong cu bằng id bài viết được thêm vào cơ sở dữ liệu 
-	include('connect.php');
-	mysqli_select_db($link,"btl-cnweb");
-	mysqli_set_charset($link,"UTF8");
-	if(isset($_GET['xembaiviet'] )){
-		$id = $_GET['xembaiviet'];
-		$sql = mysqli_query($link,"select * from congcu where idbaidang = $id");
-		$result = mysqli_fetch_array($sql);
-		include('top.php');
-		include('slide.php');
-		echo '<h1>'.$result['tenbaidang'].'</h1><br>'.$result['noidung'].'<br><br><div style="text-align:center;"><img src="'.$result['anh'].'"></div>';	
-		include('footer.php');
+	$id=$_GET['id'];
+	$link = mysqli_connect("localhost","root","","btl-cnweb");
+	//Thuc hien Truy van
+	mysqli_set_charset($link,'UTF8');
+	$sql="SELECT * FROM congcu WHERE idbaidang='$id'";
+	$result=mysqli_query($link,$sql);
+	if(mysqli_num_rows($result)>0)//nếu tồn tại bản ghi
+	{
+		while($row=mysqli_fetch_assoc($result))
+		{
+			$hienthi='<h1>'.$row['tenbaidang'].'</h1><br>'.$row['noidung'].'<br><br><div style="text-align:center;"><img src="'.$row['anh'].'"></div>';
+			echo $hienthi;
+		}
+		
+	}else{
+		echo 'Ko ton tai ban ghi nao';
 	}
-?>
+?>	
+

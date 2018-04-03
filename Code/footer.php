@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="footer.css">
 </head>
 <body>
+	<!-- div footer thêm điện thoại liên hệ và địa chỉ gmail -->
 	<div id="footer">
 			<ul>
 				<p>Điện thoại liên hệ:01234865123</p>
