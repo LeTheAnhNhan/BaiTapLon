@@ -22,7 +22,7 @@
 				{
 					while($row = mysqli_fetch_array($query))
 					{ 
-				    	$hienthi = '<div class="content1"><img class="imgcontent" src="'.$row['anh'].'" alt="" width="100%" height="150px"><div class="bottom1" ><p value="'.$row["idbaidang"].'">"'.$row['tenbaidang'].'"</p></div></div>';
+				    	$hienthi = '<div class="content1"><img class="imgcontent" value="'.$row["idbaidang"].'" src="'.$row['anh'].'" alt="" width="100%" height="150px"><div class="bottom1" ><p >"'.$row['tenbaidang'].'"</p></div></div>';
 				    	echo $hienthi;
 					}
 				} 

@@ -1,6 +1,6 @@
 //dùng ajax load dữ liệu
 $(document).ready(function(){
-	$("p").click(function(){
+	$(".imgcontent").click(function(){
 		var objHTTP = new XMLHttpRequest();
         var id = $(this).attr('value');
 
